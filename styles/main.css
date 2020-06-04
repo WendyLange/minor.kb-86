@@ -67,6 +67,11 @@
 	height: 200px;
 }
 
+/*Text decoration*/
+h2 {
+	font-size: 35px;
+}
+
 /*deelnemer details hieronder*/
 .deelnemers {
 	grid-column: 1 / 5;
@@ -96,14 +101,19 @@
 .persoon img {
 	height: auto;
 	width: 20px;
-	padding: 10px;
+	padding: 20px 5px;
 }
 
 .persona {
-	background-color: pink;
+	background-color: #3562FF;
+	color: white;
 	text-decoration: none;
-	margin: 5px;
-	padding: 10px;
+	text-align: center;
+	border: none;
+	margin: 20px 2px;
+	padding: 15px;
+	border-radius: 8px;
+	cursor: pointer;
 }
 
 /*Footer details*/

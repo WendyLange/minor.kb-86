@@ -99,9 +99,28 @@
 	padding: 10px;
 }
 
+.persona {
+	background-color: pink;
+	text-decoration: none;
+	margin: 5px;
+	padding: 10px;
+}
+
 /*Footer details*/
 .footer {
 	grid-column: 1 / 5;
 	height: 30px;
 }
 
+.footer p {
+	padding: 5px 40px;
+}
+
+.footer a {
+	padding-left: 30px;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}

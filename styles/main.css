@@ -1,5 +1,5 @@
 * {
-
+	margin: 0px;
 }
 
 
@@ -61,6 +61,8 @@
 	text-align: center;
 }
 
+
+
 .minor {
 	grid-column: 1 / 5;
 	height: 200px;
@@ -73,22 +75,26 @@
 
 .persoon1 {
 	text-align: center;
+	height: 200px;
 }
 
 .persoon2 {
 	text-align: center;
+	height: 200px;
 }
 
 .persoon3 {
 	text-align: center;
+	height: 200px;
 }
 
 .persoon4 {
 	text-align: center;
+	height: 200px;
 }
 
 .footer {
 	grid-column: 1 / 5;
-	height: 50px;
+	height: 30px;
 }
 

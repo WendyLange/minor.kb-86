@@ -51,8 +51,7 @@
 }
 
 .grid-container > div {
-	text-align: center;
-	padding: 20px 0px;
+	padding: 20px 10px;
 	background-color: #f1f1f1
 }
 
@@ -69,6 +68,10 @@
 .deelnemers {
 	grid-column: 1 / 5;
 	height: 200px;
+}
+
+.persoon {
+	text-align: center;
 }
 
 .footer {

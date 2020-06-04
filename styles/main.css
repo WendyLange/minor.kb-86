@@ -73,25 +73,32 @@
 	height: 200px;
 }
 
-.persoon1 {
+.persoon-een {
 	text-align: center;
 	height: 200px;
 }
 
-.persoon2 {
+.persoon-twee {
 	text-align: center;
 	height: 200px;
 }
 
-.persoon3 {
+.persoon-drie {
 	text-align: center;
 	height: 200px;
 }
 
-.persoon4 {
+.persoon-vier {
 	text-align: center;
 	height: 200px;
 }
+
+.persoon img {
+	height: auto;
+	width: 20px;
+	padding: 10px;
+}
+
 
 .footer {
 	grid-column: 1 / 5;

@@ -53,17 +53,26 @@
 .grid-container > div {
 	text-align: center;
 	padding: 20px 0px;
+	background-color: #f1f1f1
 }
 
 .main {
 	grid-column: 1 / 5;
+	height: 500px;
 }
 
 .minor {
 	grid-column: 1 / 5;
+	height: 200px;
 }
 
 .deelnemers {
 	grid-column: 1 / 5;
+	height: 200px;
+}
+
+.footer {
+	grid-column: 1 / 5;
+	height: 150px;
 }
 

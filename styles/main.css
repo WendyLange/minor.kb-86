@@ -58,6 +58,7 @@
 .main {
 	grid-column: 1 / 5;
 	height: 500px;
+	text-align: center;
 }
 
 .minor {
@@ -70,12 +71,24 @@
 	height: 200px;
 }
 
-.persoon {
+.persoon1 {
+	text-align: center;
+}
+
+.persoon2 {
+	text-align: center;
+}
+
+.persoon3 {
+	text-align: center;
+}
+
+.persoon4 {
 	text-align: center;
 }
 
 .footer {
 	grid-column: 1 / 5;
-	height: 150px;
+	height: 50px;
 }
 

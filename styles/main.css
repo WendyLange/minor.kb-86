@@ -47,14 +47,20 @@
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	grid-gap: 10px;
-	background-color: #f1f1f1;
 	padding: 10px;
 }
 
 .grid-container > div {
-	background-color: ivory;
 	text-align: center;
 	padding: 20px 0px;
+}
+
+.main {
+	grid-column: 1 / 5;
+}
+
+.minor {
+	grid-column: 1 / 5;
 }
 
 .deelnemers {

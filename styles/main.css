@@ -1,5 +1,6 @@
 * {
 	margin: 0px;
+	font-family: roboto, helvetica, arial;
 }
 
 
@@ -61,13 +62,12 @@
 	text-align: center;
 }
 
-
-
 .minor {
 	grid-column: 1 / 5;
 	height: 200px;
 }
 
+/*deelnemer details hieronder*/
 .deelnemers {
 	grid-column: 1 / 5;
 	height: 200px;
@@ -99,7 +99,7 @@
 	padding: 10px;
 }
 
-
+/*Footer details*/
 .footer {
 	grid-column: 1 / 5;
 	height: 30px;

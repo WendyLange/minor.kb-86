@@ -22,6 +22,13 @@
 	text-align: center;
 }
 
+.overview {
+	grid-column: 1/4;
+	height: 100px;
+}
+
+
+
 .introduction {
 	grid-column: 1/4;
 	height: 200px;
@@ -46,10 +53,28 @@
 	grid-column: 3/4;
 }
 
+.visualisaties {
+	grid-column: 1/4;
+}
+
 .eigenPortfolio {
 	grid-column: 1/4;
 }
 
 .footer {
 	grid-column: 1/4;
+}
+
+/*Decoration style for the buttons*/
+.buttns {
+	background-color: #3562FF;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	border: none;
+	margin: 20px 2px;
+	padding: 15px;
+	border-radius: 8px;
+	cursor: pointer;
+	width: 25%;
 }

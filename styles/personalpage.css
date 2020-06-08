@@ -16,6 +16,10 @@
 	background-color: #f1f1f1;
 }
 
+img {
+	padding: 20px 20px;
+}
+
 .start {
 	grid-column: 1/4;
 	height: 500px;

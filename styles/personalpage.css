@@ -1,0 +1,55 @@
+* {
+	margin: 0px;
+	font-family: roboto, helvetica, arial;
+}
+
+.wrapper {
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	padding: 10px;
+}
+
+.wrapper > div {
+	padding: 20px 10px;
+	background-color: #f1f1f1;
+}
+
+.start {
+	grid-column: 1/4;
+	height: 500px;
+	text-align: center;
+}
+
+.introduction {
+	grid-column: 1/4;
+	height: 200px;
+}
+
+.mijnwerk {
+	grid-column: 1/4;
+	height: 200px;
+}
+
+
+
+.blok1 {
+	grid-column: 1/2;
+}
+
+.blok2 {
+	grid-column: 2/3;
+}
+
+.blok3 {
+	grid-column: 3/4;
+}
+
+.eigenPortfolio {
+	grid-column: 1/4;
+}
+
+.footer {
+	grid-column: 1/4;
+}

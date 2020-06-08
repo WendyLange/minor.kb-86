@@ -24,19 +24,23 @@
 
 .overview {
 	grid-column: 1/4;
+	position: relative;
 	height: 100px;
 }
 
-
+.overview > a {
+	text-align: center;
+	margin-left: 150px;
+}
 
 .introduction {
 	grid-column: 1/4;
-	height: 200px;
+	height: 250px;
 }
 
 .mijnwerk {
 	grid-column: 1/4;
-	height: 200px;
+	height: 250px;
 }
 
 
@@ -76,5 +80,5 @@
 	padding: 15px;
 	border-radius: 8px;
 	cursor: pointer;
-	width: 25%;
+	width: 20%;
 }

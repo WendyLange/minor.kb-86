@@ -92,6 +92,15 @@ h2 {
 	min-width: 25%;
 }
 
+#imgrow {
+	position: static;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0;
+	z-index: -1;
+
+}
+
 .persoon-drie {
 	text-align: center;
 	height: 300px;
@@ -104,6 +113,11 @@ h2 {
 	height: 300px;
 	grid-column: 4/5;
 	min-width: 25%;
+}
+
+background-image {
+	height: auto;
+	width: auto;
 }
 
 .persoon img {
@@ -123,6 +137,7 @@ h2 {
 	border-radius: 8px;
 	cursor: pointer;
 	width: 100%;
+
 }
 
 /*Footer details*/

@@ -126,3 +126,9 @@ img {
 	margin-right: auto;
 
 }
+p .title{
+	font-family: roboto;
+	font-style: light;
+	font-size: 40px;
+	line-height: 32px;
+}

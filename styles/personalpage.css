@@ -52,13 +52,25 @@ img {
 .blok1 {
 	grid-column: 1/2;
 }
+.blok1 img{
+	width: 355px;
+	height: 201px;
+}
 
 .blok2 {
 	grid-column: 2/3;
 }
+.blok2 img{
+	width: 355px;
+	height: 201px;
+}
 
 .blok3 {
 	grid-column: 3/4;
+}
+.blok3 img{
+	width: 355px;
+	height: 201px;
 }
 
 .visualisaties {
@@ -85,4 +97,38 @@ img {
 	border-radius: 8px;
 	cursor: pointer;
 	width: 20%;
+}
+@media only screen and (max-width: 768px) {
+	body{
+		width: 70%;
+	}
+	h1{
+		color: red;
+	}
+	h2{
+		font-weight: bold;
+		font-size: 30px;
+		font-family: roboto;
+		color: #ffffff;
+	}
+}
+.wrapper .start .background{
+	width: 1200px;
+	height: 500px;
+	position: relative;
+}
+
+.wrapper .start .profile{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+p .title{
+	font-family: roboto;
+	font-style: light;
+	font-size: 40px;
+	line-height: 32px;
 }

@@ -29,7 +29,7 @@
 	margin: 0;
 	margin-left: 2em;
 	padding: 0;
-	height: 250px;
+	height: 255px;
 	width: 90%;
 }
 
@@ -38,7 +38,7 @@
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
-	height: 250px;
+	height: 240px;
 	width: 90%;
 }
 
@@ -47,7 +47,7 @@
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
-	height: 250px;
+	height: 240px;
 	width: 90%;
 }
 
@@ -58,7 +58,7 @@
 	bottom: 5%;
 	color: white;
 	background-color: #3562FF;
-	padding: 15px 130px;
+	padding: 15px 120px;
 	align-content: center;
 }
 

@@ -23,3 +23,49 @@
 	padding: 15px 700px;
 }
 
+.blok1 {
+	background: url(../images/dave-HeaderBlokjeBlok1DaveDesktop.png) no-repeat center center;
+	background-size: 100%;
+	margin: 0;
+	margin-left: 2em;
+	padding: 0;
+	height: 250px;
+	width: 90%;
+}
+
+.blok2 {
+	background: url(../images/dave-HeaderBlokjeBlok2DaveDesktop.png) no-repeat center center;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	height: 250px;
+	width: 90%;
+}
+
+.blok3 {
+	background: url(../images/dave-HeaderBlokjeBlok3DaveDesktop.png) no-repeat center center;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	height: 250px;
+	width: 90%;
+}
+
+.bloktext {
+	/*position: absolute;*/
+	margin-top: 210px;
+	left: 50%;
+	bottom: 5%;
+	color: white;
+	background-color: #3562FF;
+	padding: 15px 130px;
+	align-content: center;
+}
+
+.bloktext a {
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+	width: 100%;
+}

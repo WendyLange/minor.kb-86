@@ -1,0 +1,25 @@
+/*main image on page*/
+.start {
+	background: url(../images/dave-HeaderPersoonspaginaDaveDesktop.png) no-repeat center center;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	height: 500px;
+}
+
+.start img {
+	position: absolute;
+	top: 41%;
+	left: 47%;
+	width: 5%;
+}
+
+.starttext {
+	position: absolute;
+	left: 0%;
+	top: 52%;
+	color: white;
+	background-color: #3562FF;
+	padding: 15px 700px;
+}
+

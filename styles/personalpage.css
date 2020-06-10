@@ -13,7 +13,7 @@
 
 .wrapper > div {
 	padding: 40px 10px;
-	background-color: #f1f1f1;
+	/*background-color: #f1f1f1;*/
 }
 
 img {
@@ -78,11 +78,17 @@ img {
 }
 
 .eigenPortfolio {
-	grid-column: 1/7;
+	grid-column: 2/6;
 }
 
 .footer {
-	grid-column: 1/7;
+	/*grid-column: 1/7;*/
+	background-color: #3562FF;
+
+}
+
+.footer p {
+	padding: 20px 40px;
 }
 
 /*Decoration style for the buttons*/

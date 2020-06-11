@@ -30,6 +30,21 @@
 	width: 5%;
 }
 
+.starte1 {
+	background: url(../images/wendy-blog1-header.png) no-repeat center center;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	height: 500px;
+}
+
+.starte1 img {
+	position: absolute;
+	top: 44%;
+	left: 46%;
+	width: 5%;
+}
+
 .starttext {
 	position: absolute;
 	left: 0%;
@@ -37,6 +52,17 @@
 	color: white;
 	background-color: #3562FF;
 	padding: 15px 700px;
+	text-align: center;
+}
+
+/*Blog wendy, vanwege spacing*/
+.starttextwendy {
+	position: absolute;
+	left: 0%;
+	top: 55%;
+	color: white;
+	background-color: #3562FF;
+	padding: 15px 724px;
 	text-align: center;
 }
 
@@ -73,7 +99,7 @@
 
 /*Button details Wendy*/
 .bloke1 {
-	background: url(../images/dave-HeaderBlokjeBlok1DaveDesktop.png) no-repeat center center;
+	background: url(../images/wendy-index-women-skin-background-colour-details.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
 	margin-left: 2em;
@@ -84,7 +110,7 @@
 }
 
 .bloke2 {
-	background: url(../images/dave-HeaderBlokjeBlok2DaveDesktop.png) no-repeat center center;
+	background: url(../images/wendy-button-dwdd-bumper.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
@@ -94,7 +120,7 @@
 }
 
 .bloke3 {
-	background: url(../images/dave-HeaderBlokjeBlok3DaveDesktop.png) no-repeat center center;
+	background: url(../images/wendy-button-squid-background.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
 	padding: 0;

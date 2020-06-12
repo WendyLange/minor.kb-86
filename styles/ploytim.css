@@ -1,6 +1,6 @@
-/*main image on page Dave*/
+/*main image on page ploy*/
 .start {
-	background: url(../images/dave-HeaderPersoonspaginaDaveDesktop.png) no-repeat center center;
+	background: url(../images/ploy-index-Tekengebied-1@3x.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
@@ -8,13 +8,13 @@
 }
 
 .start img {
-	position: absolute;
+/*	position: absolute;
 	top: 44%;
 	left: 47%;
-	width: 5%;
+	width: 5%;*/
 }
 
-/*main image on page Wendy*/
+/*main image on page Tim*/
 .starte {
 	background: url(../images/wendy-persoonspag-header.png) no-repeat center center;
 	background-size: 100%;
@@ -69,7 +69,7 @@
 
 /*Button details Dave*/
 .blok1 {
-	background: url(../images/dave-HeaderBlokjeBlok1DaveDesktop.png) no-repeat center center;
+	background: url(../images/ploy-index-Tekengebied-1@3x.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
 	margin-left: 2em;
@@ -79,7 +79,7 @@
 }
 
 .blok2 {
-	background: url(../images/dave-HeaderBlokjeBlok2DaveDesktop.png) no-repeat center center;
+	background: url(../images/Group_65.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
@@ -88,7 +88,7 @@
 }
 
 .blok3 {
-	background: url(../images/dave-HeaderBlokjeBlok3DaveDesktop.png) no-repeat center center;
+	background: url(../images/cartoon_blok3.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
 	padding: 0;

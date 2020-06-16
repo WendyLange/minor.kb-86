@@ -148,9 +148,11 @@ background-image {
 /*Footer details*/
 .footer {
 	background-color: #3562FF;
+	position: relative;
+	height: 100px;
+	clear: both;
 
 }
-
 .footer p {
 	padding: 20px 40px;
 }

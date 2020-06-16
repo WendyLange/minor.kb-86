@@ -325,6 +325,15 @@ header img {
 	'photo4	photo5'
 	'photo6	photo7';
 }
+.photo7 .artphoto {
+	width: 400px;
+	height: auto;
+	
+}
+.photo7 img {
+	margin: auto;
+}
+
 .blok-photos img{
 	width: 100%;
 	height: auto;
@@ -335,10 +344,6 @@ header img {
 	width: 1249px;
 	height: auto;
 }
-
-
-
-
 
 
 

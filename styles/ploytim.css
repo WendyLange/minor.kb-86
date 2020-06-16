@@ -47,6 +47,31 @@ header img {
 	font-size: 40px;
 	color: white;
 }
+.header-blok-tekst {
+	width: 1920px;
+	height: 225px;
+	background-color: #3561FF;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-family: roboto;
+	
+}
+.header-blok-tekst h1 {
+	font-family: roboto;
+	font-weight: bold;
+	font-size: 60px;
+	color: white;
+
+}
+.header-blok-tekst p {
+	font-family: roboto;
+	font-weight: lighter;
+	font-size: 40px;
+	color: white;
+}
 .arrow-down {
 	/*position: absolute;*/
 	width: 97px;
@@ -65,42 +90,44 @@ header img {
 * {
 	font-family: roboto;
 }
-.h1-intro, .h1-works {
+.h1-intro, .h1-works, .h1-visual {
 	font-weight: bold;
 	font-size: 60px;
 	text-align: center;
 	margin-top: 0;
 }
-.p-intro, .p-works  {
+.p-intro, .p-works, .p-visual  {
 	font-weight: 300;
 	font-size: 20px;
 	margin: auto;
-	width: 60%;
+	width: 730px;
 	padding: 10px;
+	letter-spacing: 1px;
+    line-height: 30px;
 
 }
-.line-intro, .line-works, .line-port {
+.line-intro, .line-works, .line-port, .line-visual {
 	box-sizing: border-box;
 	width: 30%;
 	margin: auto 28%;
 
 }
 
-.line1, .line-works-1 {
+.line1, .line-works-1, .line-visual-1 {
 	width: 80%;
 	float: left;
 	border: 3px solid #3561FF;
 	
 
 }
-.line2, .line-works-2 {
+.line2, .line-works-2, .line-visual-2 {
 	width: 15%;
 	float: right;
 	border: 3px solid #3561FF;
 	
 }
 
-.ruimte-intro, .ruimte-works  {
+.ruimte-intro, .ruimte-works, .ruimte-visual  {
 	padding: 4%;
 }
 
@@ -118,6 +145,11 @@ header img {
 .blokphoto{
 	width: 450px;
 	height: 300px;
+}
+
+.visualisaties {
+	height: 600px;
+	top: 20px;
 }
 
 
@@ -259,9 +291,59 @@ header img {
     }
 }
 
+/*blok photos met tekst*/
 
+.photo1{
+	grid-area: photo1;
+}
+.photo2{
+	grid-area: photo2;
+}
+.photo3{
+	grid-area: photo3;
+}
+.photo4{
+	grid-area: photo4;
+}
+.photo5{
+	grid-area: photo5;
+}
+.photo6{
+	grid-area: photo6;
+}
+.photo7{
+	grid-area: photo7;
+}
+.blok-photos{
+	width: 70%;
+	margin: auto;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-areas: 
+	'photo1	photo1'
+	'photo2	photo3'
+	'photo4	photo5'
+	'photo6	photo7';
+}
+.photo7 .artphoto {
+	width: 400px;
+	height: auto;
+	
+}
+.photo7 img {
+	margin: auto;
+}
 
-
+.blok-photos img{
+	width: 100%;
+	height: auto;
+	width: 605px;
+	height: 340px;
+}
+.photo1 img{
+	width: 1249px;
+	height: auto;
+}
 
 
 

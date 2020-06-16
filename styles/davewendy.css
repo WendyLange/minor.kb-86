@@ -14,6 +14,14 @@
 	width: 5%;
 }
 
+.startblog2 {
+	background: url(../images/dave-blog2-HeaderBlok2DaveDesktop.png) no-repeat center center;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	height: 500px;
+}
+
 /*main image on page Wendy*/
 .starte {
 	background: url(../images/wendy-persoonspag-header.png) no-repeat center center;
@@ -47,23 +55,12 @@
 
 .starttext {
 	position: absolute;
-	left: 0%;
 	top: 55%;
 	color: white;
 	background-color: #3562FF;
-	padding: 15px 700px;
+	padding: 15px 0px;
 	text-align: center;
-}
-
-/*Blog wendy, vanwege spacing*/
-.starttextwendy {
-	position: absolute;
-	left: 0%;
-	top: 55%;
-	color: white;
-	background-color: #3562FF;
-	padding: 15px 724px;
-	text-align: center;
+	width: 100%;
 }
 
 

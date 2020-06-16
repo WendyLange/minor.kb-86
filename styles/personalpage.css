@@ -8,7 +8,7 @@
 	margin: 0 auto;
 	grid-template-columns: auto auto auto auto auto auto;
 	grid-gap: 10px;
-	padding: 10px;
+	/*padding: 10px;*/
 }
 
 .wrapper > div {
@@ -38,13 +38,24 @@ img {
 }
 
 .introduction {
-	grid-column: 2/6;
+	grid-column: 3/5;
 	height: 250px;
+	margin-top: 25px;
 }
 
 .mijnwerk {
-	grid-column: 2/6;
-	height: 250px;
+	grid-column: 1/7;
+	height: 300px;
+	background-color: #3562FF;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+}
+
+.mijnwerk__text {
+	flex: 0 0 900px;
+	color: #FFFFFF;
 }
 
 

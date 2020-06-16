@@ -141,8 +141,25 @@
 }
 
 
+.mijnwerk__text {
+	display: grid;
+	grid-column: 3/5;
+}
+
+/*Button spacing grid details*/
+.bloggrid {
+	grid-column: 2/6;
+	display: grid;
+	grid-gap: 2em;
+	margin: auto;
+	grid-template-areas: 'blok1 blok2 blok3';
+	width: 100%;
+}
+
+
 /*Button details Dave*/
 .blok1 {
+	grid-area: blok1;
 	background: url(../images/dave-HeaderBlokjeBlok1DaveDesktop.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
@@ -153,6 +170,7 @@
 }
 
 .blok2 {
+	grid-area: blok2;
 	background: url(../images/dave-HeaderBlokjeBlok2DaveDesktop.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
@@ -162,6 +180,7 @@
 }
 
 .blok3 {
+	grid-area: blok3;
 	background: url(../images/dave-HeaderBlokjeBlok3DaveDesktop.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
@@ -173,6 +192,7 @@
 
 /*Button details Wendy*/
 .bloke1 {
+	grid-area: blok1;
 	background: url(../images/wendy-index-women-skin-background-colour-details.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
@@ -184,6 +204,7 @@
 }
 
 .bloke2 {
+	grid-area: blok2;
 	background: url(../images/wendy-button-dwdd-bumper.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
@@ -194,6 +215,7 @@
 }
 
 .bloke3 {
+	grid-area: blok3;
 	background: url(../images/wendy-button-squid-background.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;

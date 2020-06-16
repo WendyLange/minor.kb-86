@@ -90,13 +90,13 @@ header img {
 * {
 	font-family: roboto;
 }
-.h1-intro, .h1-works {
+.h1-intro, .h1-works, .h1-visual {
 	font-weight: bold;
 	font-size: 60px;
 	text-align: center;
 	margin-top: 0;
 }
-.p-intro, .p-works  {
+.p-intro, .p-works, .p-visual  {
 	font-weight: 300;
 	font-size: 20px;
 	margin: auto;
@@ -106,28 +106,28 @@ header img {
     line-height: 30px;
 
 }
-.line-intro, .line-works, .line-port {
+.line-intro, .line-works, .line-port, .line-visual {
 	box-sizing: border-box;
 	width: 30%;
 	margin: auto 28%;
 
 }
 
-.line1, .line-works-1 {
+.line1, .line-works-1, .line-visual-1 {
 	width: 80%;
 	float: left;
 	border: 3px solid #3561FF;
 	
 
 }
-.line2, .line-works-2 {
+.line2, .line-works-2, .line-visual-2 {
 	width: 15%;
 	float: right;
 	border: 3px solid #3561FF;
 	
 }
 
-.ruimte-intro, .ruimte-works  {
+.ruimte-intro, .ruimte-works, .ruimte-visual  {
 	padding: 4%;
 }
 
@@ -145,6 +145,11 @@ header img {
 .blokphoto{
 	width: 450px;
 	height: 300px;
+}
+
+.visualisaties {
+	height: 600px;
+	top: 20px;
 }
 
 

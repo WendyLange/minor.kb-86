@@ -58,6 +58,24 @@ h2 {
 	font-size: 20px;
 
 }
+.button-white{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+
+}
+
+.buttons-white{
+	width: 340px;
+	height: 50px;
+	background-color: #fff;
+	color: #3562FF;
+	border-style: none;
+	margin: 20px;
+	font-size: 20px;
+
+}
 
 /*deelnemer details hieronder*/
 .deelnemers {

@@ -4,18 +4,28 @@
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
-	height: 500px;
+	height: 550px;
 }
 
-.start img {
-	position: absolute;
-	top: 44%;
-	left: 47%;
-	width: 5%;
+
+.startblog1 {
+	background: url(../images/dave-blog1-HeaderBlok1DaveDesktop.png) no-repeat center center;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	height: 500px;
 }
 
 .startblog2 {
 	background: url(../images/dave-blog2-HeaderBlok2DaveDesktop.png) no-repeat center center;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	height: 500px;
+}
+
+.startblog3 {
+	background: url(../images/dave-blog3-HeaderBlok3DaveDesktop.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
@@ -28,7 +38,7 @@
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
-	height: 500px;
+	height: 550px;
 }
 
 .starte img {
@@ -53,9 +63,75 @@
 	width: 5%;
 }
 
+/*header box for personal pages*/
+.boxmain {
+	position: absolute;
+	top: 6.2%;
+	right: 0%;
+	left: 70%;
+	color: white;
+	background-color: #171717;
+	padding: 15px 0px;
+	text-align: center;
+	height: 520px;
+}
+
+.boxmain__text {
+	padding-top: 200px;
+	font-size: 20px;
+}
+
+
+/*personal picture in the header*/
+.boxmain img {
+	position: absolute;
+	top: 5%;
+	left: 35%;
+	width: 25%;
+}
+
+/*Animated arrow section*/
+.arrow{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-bottom: 5px solid #3562FF;
+    border-right: 5px solid #3562FF;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+
+/*Blue line onder header*/
 .starttext {
 	position: absolute;
-	top: 55%;
+	top: 60%;
 	color: white;
 	background-color: #3562FF;
 	padding: 15px 0px;

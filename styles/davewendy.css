@@ -34,7 +34,7 @@
 
 /*main image on page Wendy*/
 .starte {
-	background: url(../images/wendy-persoonspag-header.png) no-repeat center center;
+	background: url(https://s4.aconvert.com/convert/p3r68-cdx67/a56us-98f8p.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
@@ -66,7 +66,7 @@
 /*header box for personal pages*/
 .boxmain {
 	position: absolute;
-	top: 8.2%;
+	top: 10.5%;
 	right: 0%;
 	left: 70%;
 	color: white;
@@ -209,7 +209,7 @@
 	bottom: 5%;
 	color: white;
 	background-color: #3562FF;
-	padding: 15px 120px;
+	padding: 15px 20px;
 	align-content: center;
 }
 
@@ -219,4 +219,32 @@
 	color: #ffffff;
 	cursor: pointer;
 	width: 100%;
+}
+
+.eigenPortfolio {
+	background-color: #0038FF;
+	margin: 100px 0px;
+	color: #FFFFFF;
+}
+
+.eigenPortfolio__tekst {
+	padding: 30px 40px;
+	font-size: 18px;
+}
+
+.eigenPortfolio__tekst h2 {
+	font-size: 40px;
+}
+
+.portlink {
+	background-color: #FFFFFF;
+
+	text-decoration: none;
+	text-align: center;
+	border: none;
+	margin: 20px 2px;
+	padding: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 20%;
 }

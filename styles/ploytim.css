@@ -3,7 +3,7 @@
 	background-color: rgba(23,23,23,0.3);
 	width: 700px;
 	height: 1000px;
-	top: 49px;
+	top: 92px;
 	right: 0;
 
 
@@ -59,15 +59,6 @@ header img {
 	top: 70%;
 }
 
-/* Line 13 */
-
-hr{
-
-position: absolute;
-width: 355px;
-border: 3px solid #3561FF;
-}
-
 .box1 {
 	
 }
@@ -96,16 +87,14 @@ border: 3px solid #3561FF;
 }
 
 .line1, .line-works-1 {
-	width: 355px;
-	right: 50%;
+	width: 80%;
 	float: left;
 	border: 3px solid #3561FF;
 	
 
 }
 .line2, .line-works-2 {
-	width: 105px;
-	right: 42%;
+	width: 15%;
 	float: right;
 	border: 3px solid #3561FF;
 	
@@ -195,10 +184,12 @@ border: 3px solid #3561FF;
 	width: 340px;
 	height: 50px;
 	margin: auto;
+	margin-right: 150px;
 }
 .portfolio {
 	margin: 20% 5% 20% 5%;
 	padding: 4%;
+	padding-right: 0;
 	display: grid;
 	grid-template-areas: 
 	'tekst knop knop knop';

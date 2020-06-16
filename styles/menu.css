@@ -17,6 +17,12 @@
 
 .navbar-right{
   float: right;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.logo1{
+  height: 0%;
 }
 
 /*.dropdown {

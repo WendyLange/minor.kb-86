@@ -71,3 +71,173 @@ border: 3px solid #3561FF;
 .box1 {
 	
 }
+* {
+	font-family: roboto;
+}
+.h1-intro, .h1-works {
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 0;
+}
+.p-intro, .p-works  {
+	font-weight: 300;
+	font-size: 20px;
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+
+}
+.line-intro, .line-works, .line-port {
+	box-sizing: border-box;
+	width: 30%;
+	margin: auto 28%;
+
+}
+
+.line1, .line-works-1 {
+	width: 80%;
+	float: left;
+	border: 3px solid #3561FF;
+	
+
+}
+.line2, .line-works-2 {
+	width: 15%;
+	float: right;
+	border: 3px solid #3561FF;
+	
+}
+
+.ruimte-intro, .ruimte-works  {
+	padding: 4%;
+}
+
+.works {
+	height: 600px;
+	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
+	top: 20px;
+}
+.h1-works, .p-works {
+	color: white;
+}
+.line-works-1, .line-works-2  {
+	border: 3px solid white;
+}
+.blokphoto{
+	width: 450px;
+	height: 300px;
+}
+
+
+.blok-1 {
+	grid-area: blokEen;
+}
+.blok-2 {
+	grid-area: blokTwee;
+}
+.blok-3 {
+	grid-area: blokDrie;
+}
+.blokken {
+	padding: 4%;
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-areas: 
+	'. blokEen blokTwee blokDrie .';
+}
+.blokken a {
+	background-color: #3562FF;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+}
+.blokken a img {
+	width: 100%;
+	height: auto;
+}
+.blokken a h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.blokken a p {
+	font-size: 20px;
+	font-weight: lighter;
+}
+.blokken a h2, .blokken a p {
+	color: white;
+}
+
+
+.portfolio {
+	background: #0038FF;
+	box-shadow: 15px 10px 50px rgba(0, 56, 255, 0.8);
+	color: white;
+}
+.tekst h1 {
+	font-size: 60px;
+	font-weight: bold;
+}
+.tekst p {
+	font-size: 20px;
+	font-weight: lighter;
+}
+.tekst {
+	grid-area: tekst;
+	margin-right: 25%;
+}
+.knop {
+	grid-area: knop;
+	width: 340px;
+	height: 50px;
+	margin: auto;
+}
+.portfolio {
+	margin: 20% 5% 20% 5%;
+	padding: 4%;
+	display: grid;
+	grid-template-areas: 
+	'tekst knop knop knop';
+}
+.portfolio button {
+	border: 0px solid white;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 20px;
+	color: #0038FF;
+
+}
+.line-port {
+	margin: 0px;
+	width: 60%;
+}
+.line-port-1 {
+	width: 80%;
+	float: right;
+	border: 3px solid #3561FF;
+}
+.line-port-2 {
+	width: 15%;
+	float: left;
+	border: 3px solid #3561FF;
+}
+
+
+.line-port-1, .line-port-2 {
+	border: 3px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

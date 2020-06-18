@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 * {
+	box-sizing: border-box;
 	margin: 0px;
 	font-family: roboto, helvetica, arial;
 }
@@ -21,6 +22,94 @@
 	padding: 20px 10px;
 	background-color: #f1f1f1
 }
+
+/*header content + foto's*/
+.dave-link {
+	grid-area: dave ;
+}
+.ploy-link {
+	grid-area: ploy;
+}
+.tim-link {
+	grid-area: tim;
+}
+.wendy-link {
+	grid-area: wendy;
+}
+
+.frontpage {
+	display: flex;
+	text-align: center;
+}
+
+.frontpage a img {
+	width: 100%;
+	height: auto;
+}
+
+header a:hover .image-dave, header a:hover .image-ploy, header a:hover .image-tim, header a:hover .image-wendy {
+	opacity: 0.1;
+}
+.dave-link:hover .hover-text-dave, .ploy-link:hover .hover-text-ploy, .tim-link:hover .hover-text-tim, .wendy-link:hover .hover-text-wendy {
+	opacity: 1;
+}
+/*.dave-link:hover, .ploy-link:hover, .tim-link:hover, .wendy-link:hover  {
+	opacity: 1;
+}*/
+.frontpage a {
+	  background: rgba(23, 23, 23, 0.7);
+}
+.hover-text-dave, .hover-text-ploy, .hover-text-tim, .hover-text-wendy  {
+	position: absolute;
+	transition: 0.5s ease;
+	opacity: 0;
+	transform: translate(-50%, -50%);
+  	text-align: center;
+  	
+}
+.hover-text-dave {
+	width: 20%;
+	top: 50%;
+	left: 12%;
+}
+.hover-text-ploy {
+	width: 20%;
+	top: 50%;
+	left: 37%;
+}
+.hover-text-tim {
+	width: 20%;
+	top: 50%;
+	left: 63%;
+}
+.hover-text-wendy {
+	width: 20%;
+	top: 50%;
+	left: 87%;
+}
+.hover-text-wendy h1{
+	top: 50%;
+	left: 87%;
+}
+
+header a {
+	color: white;
+	
+}
+header p {
+	font-size: 20px;
+}
+.hover-text-dave img, .hover-text-ploy img, .hover-text-tim img, .hover-text-wendy img {
+	padding: 20%;
+}
+.hover-text-dave p, .hover-text-ploy p, .hover-text-tim p, .hover-text-wendy p {
+	padding-top:10%;
+	font-weight: 300;
+}
+/*end header content*/
+
+
+
 
 .main {
 	grid-column: 1 / 5;
@@ -181,3 +270,5 @@ background-image {
 		color: #ffffff;
 	}
 }
+
+

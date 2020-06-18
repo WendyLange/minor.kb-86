@@ -344,6 +344,48 @@ header img {
 	width: 1249px;
 	height: auto;
 }
+
+.blok-photos-tim{
+	margin: auto;
+}
+
+iframe{
+	width: 560px;
+	height: 315px;
+}
+
+.title{
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 32px;
+margin: 40px 0px 20px 0px;
+}
+
+.photo1-blok2{
+	grid-area: photo1-blok2;
+	padding: 10px;
+}
+
+.photo2-blok2{
+	grid-area: photo2-blok2;
+	padding: 10px;
+}
+.blok2-photos{
+	padding: 50px;
+	display: grid;
+	grid-template-areas: 
+	'photo1-blok2 photo2-blok2';
+}
+.p-youtube{
+	font-weight: 300;
+	width: 560px;
+}
+div.blok2-photos{
+	width: 70%;
+	margin: auto;
+}
+
 .blok3-1{
 	grid-area: blok3-1;
 }
@@ -396,27 +438,5 @@ header img {
 .blok-photos-blok3 img{
 	width: 100%;
 }
-.blok-photos-tim{
-	margin: auto;
-}
-.blok2-photos{
-	width: 60%;
-	margin: auto;
-	display: grid;
-	grid-gap: 50px;
-	grid-template-areas: 
-	'photo1	photo2';
-}
-.photo1-blok2, .photo2-blok2{
-
-}
-iframe{
-	width: 560px;
-	height: 315px;
-}
-
-
-
-
 
 

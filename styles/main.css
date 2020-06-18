@@ -108,6 +108,115 @@ header p {
 }
 /*end header content*/
 
+/*main content*/
+.h1-about, .h1-deelnemers {
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 0;
+}
+.p-about, .p-deelnemers  {
+	font-weight: 300;
+	font-size: 20px;
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+
+}
+.line-about, .line-deelnemers {
+	box-sizing: border-box;
+	width: 33%;
+	margin: auto 28%;
+}
+.line1-about, .line1-deelnemers {
+	width: 80%;
+	float: left;
+	border: 3px solid #3561FF;
+}
+.line2-about, .line2-deelnemers {
+	width: 15%;
+	float: right;
+	border: 3px solid #3561FF;
+}
+.deelnemers {
+	height: 500px;
+	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
+	top: 20px;
+}
+.h1-deelnemers, .p-deelnemers {
+	color: white;
+}
+.line1-deelnemers, .line2-deelnemers {
+	border: 3px solid white;
+}
+.ruimte-about, .ruimte-deelnemers {
+	padding: 4%;
+}
+
+/*blokken*/
+.blok-dave {
+	grid-area: blokD;
+}
+.blok-ploy {
+	grid-area: blokP;
+}
+.blok-tim {
+	grid-area: blokT;
+}
+.blok-wendy {
+	grid-area: blokW;
+}
+.blok-profiles {
+	display: grid;
+	/*grid-gap: 20px;*/
+	
+	/*width: 80%;*/
+	height: 500px;
+	margin: auto;
+	grid-template-areas: 
+	'blokD blokP blokT blokW'
+}
+.blok-profiles a {
+	background-color: #3562FF;
+	width: 360px;
+	height: 300px;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	margin: auto;
+}
+.blok-profiles a img {
+	width: 100%;
+	height: auto;
+}
+.profile{
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	bottom: 50px;
+}
+
+.blok-wendy img {
+	background-color: white;
+}
+.blok-profiles a h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.blok-profiles a p {
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.blok-profiles a h2, .blok-profiles a p {
+	color: white;
+}
+/*end main content*/
+
+
+
+
+
 
 
 
@@ -169,7 +278,7 @@ h2 {
 /*deelnemer details hieronder*/
 .deelnemers {
 	grid-column: 1 / 5;
-	height: 200px;
+	height: 537px;
 }
 
 .persoon-een {

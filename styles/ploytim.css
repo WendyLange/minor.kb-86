@@ -2,7 +2,7 @@
 	position: absolute;
 	background-color: rgba(23,23,23,0.3);
 	width: 700px;
-	height: 1000px;
+	height: 800px;
 	top: 89px;
 	right: 0;
 
@@ -11,23 +11,23 @@
 header img {
 /*	position: absolute;*/
 	width: 100%;
-	height: 1000px;
+	height: 800px;
 	left: 0px;
 	top: 80px;
 }
 
 .header-box-tekst .img {
-	position: absolute;
 	width: 150px;
 	height: 150px;
-	left: 100px;
-	top: -140px;
 
 }
 
 .header-box-tekst {
+	width: 600px;
+	height: 500px;
+	padding: 20px;
 	position: absolute;
-	top: 60%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
@@ -42,14 +42,15 @@ header img {
 
 }
 .header-box-tekst p {
+	margin: 20px;
 	font-family: roboto;
 	font-weight: lighter;
 	font-size: 40px;
 	color: white;
 }
 .header-blok-tekst {
-	width: 1920px;
-	height: 225px;
+	width: 100%;
+	height: 20%;
 	background-color: #3561FF;
 	position: absolute;
 	top: 90%;
@@ -60,6 +61,7 @@ header img {
 	
 }
 .header-blok-tekst h1 {
+	padding-top: 2%;
 	font-family: roboto;
 	font-weight: bold;
 	font-size: 60px;
@@ -219,7 +221,7 @@ header img {
 	margin-right: 150px;
 }
 .portfolio {
-	margin: 20% 5% 20% 5%;
+	margin: 12% 5% 12% 5%;
 	padding: 4%;
 	padding-right: 0;
 	display: grid;
@@ -257,18 +259,18 @@ header img {
 /*Animated arrow section*/
 .arrow{
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .arrow span{
     display: block;
-    width: 30px;
-    height: 30px;
-    border-bottom: 5px solid #fff;
-    border-right: 5px solid black;
+    width: 15px;
+    height: 15px;
+    border-bottom: 5px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
     transform: rotate(45deg);
-    margin: -20px;
+    margin: -10px;
     animation: animate 2s infinite;
 }
 .arrow span:nth-child(2){
@@ -280,14 +282,14 @@ header img {
 @keyframes animate {
     0%{
         opacity: 0;
-        transform: rotate(45deg) translate(-30px,-30px);
+        transform: rotate(45deg) translate(-20px,-20px);
     }
     50%{
         opacity: 1;
     }
     100%{
         opacity: 0;
-        transform: rotate(45deg) translate(30px,30px);
+        transform: rotate(45deg) translate(20px,20px);
     }
 }
 
@@ -315,8 +317,8 @@ header img {
 	grid-area: photo7;
 }
 .blok-photos{
-	width: 70%;
-	margin: auto;
+	width: 1000px;
+	margin-left: 10%;
 	display: grid;
 	grid-gap: 50px;
 	grid-template-areas: 
@@ -335,8 +337,6 @@ header img {
 }
 
 .blok-photos img{
-	width: 100%;
-	height: auto;
 	width: 605px;
 	height: 340px;
 }
@@ -345,9 +345,98 @@ header img {
 	height: auto;
 }
 
+.blok-photos-tim{
+	margin: auto;
+}
 
+iframe{
+	width: 560px;
+	height: 315px;
+}
 
+.title{
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 32px;
+margin: 40px 0px 20px 0px;
+}
 
+.photo1-blok2{
+	grid-area: photo1-blok2;
+	padding: 10px;
+}
 
+.photo2-blok2{
+	grid-area: photo2-blok2;
+	padding: 10px;
+}
+.blok2-photos{
+	padding: 50px;
+	display: grid;
+	grid-template-areas: 
+	'photo1-blok2 photo2-blok2';
+}
+.p-youtube{
+	font-weight: 300;
+	width: 560px;
+}
+div.blok2-photos{
+	width: 70%;
+	margin: auto;
+}
+
+.blok3-1{
+	grid-area: blok3-1;
+}
+.blok3-2{
+	grid-area: blok3-2;
+}
+.blok3-3{
+	grid-area: blok3-3;
+}
+.blok3-4{
+	grid-area: blok3-4;
+}
+.blok3-5{
+	grid-area: blok3-5;
+}
+.blok3-6{
+	grid-area: blok3-6;
+}
+.blok3-7{
+	grid-area: blok3-7;
+}
+.blok3-8{
+	grid-area: blok3-8;
+}
+.blok3-9{
+	grid-area: blok3-9;
+}
+.blok3-10{
+	grid-area: blok3-10;
+}
+.blok3-11{
+	grid-area: blok3-11;
+}
+.blok3-12{
+	grid-area: blok3-12;
+}
+
+.blok-photos-blok3{
+	padding-top: 75px;
+	margin: auto;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-areas: 
+	'blok3-1 blok3-2 blok3-3'
+	'blok3-4 blok3-5 blok3-6'
+	'blok3-7 blok3-8 blok3-9'
+	'blok3-10 blok3-11 blok3-12';
+
+}
+.blok-photos-blok3 img{
+	width: 100%;
+}
 
 

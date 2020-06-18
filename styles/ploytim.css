@@ -344,14 +344,57 @@ header img {
 	width: 1249px;
 	height: auto;
 }
-.blok-photo-blok3{
-	
+.blok3-1{
+	grid-area: blok3-1;
 }
-.blok3-1 img{
-	margin-left: auto;
-	margin-right: auto;
-	width: 1230px;
-	height: 1070px;
+.blok3-2{
+	grid-area: blok3-2;
+}
+.blok3-3{
+	grid-area: blok3-3;
+}
+.blok3-4{
+	grid-area: blok3-4;
+}
+.blok3-5{
+	grid-area: blok3-5;
+}
+.blok3-6{
+	grid-area: blok3-6;
+}
+.blok3-7{
+	grid-area: blok3-7;
+}
+.blok3-8{
+	grid-area: blok3-8;
+}
+.blok3-9{
+	grid-area: blok3-9;
+}
+.blok3-10{
+	grid-area: blok3-10;
+}
+.blok3-11{
+	grid-area: blok3-11;
+}
+.blok3-12{
+	grid-area: blok3-12;
+}
+
+.blok-photos-blok3{
+	padding-top: 75px;
+	margin: auto;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-areas: 
+	'blok3-1 blok3-2 blok3-3'
+	'blok3-4 blok3-5 blok3-6'
+	'blok3-7 blok3-8 blok3-9'
+	'blok3-10 blok3-11 blok3-12';
+
+}
+.blok-photos-blok3 img{
+	width: 100%;
 }
 .blok-photos-tim{
 	margin: auto;

@@ -1,10 +1,10 @@
 /*main image on page Dave*/
 .start {
-	background: url(../images/dave-HeaderPersoonspaginaDaveDesktop.png) no-repeat center center;
+	background: url(../images/HeaderPersoonspaginaDaveDesktop.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
-	height: 550px;
+	height: 700px;
 }
 
 
@@ -13,7 +13,7 @@
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
-	height: 500px;
+	height: 680px;
 }
 
 .startblog2 {
@@ -21,7 +21,7 @@
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
-	height: 500px;
+	height: 680px;
 }
 
 .startblog3 {
@@ -29,40 +29,42 @@
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
-	height: 500px;
+	height: 680px;
 }
 
 /*main image on page Wendy*/
 .starte {
 	background: url(../images/wendy-desktop-triangle-animated.png) no-repeat center center;
-	
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
-	height: 550px;
+	height: 700px;
 }
 
-.starte img {
-	position: absolute;
-	top: 44%;
-	left: 46%;
-	width: 5%;
-}
-
-.starte1 {
+.starteblog1 {
 	background: url(../images/wendy-blog1-header.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
-	height: 500px;
+	height: 700px;
 }
 
-.starte1 img {
-	position: absolute;
-	top: 44%;
-	left: 46%;
-	width: 5%;
+.starteblog2 {
+	background: url(../images/wendy-blog1-header.png) no-repeat center center;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	height: 700px;
 }
+
+.starteblog3 {
+	background: url(../images/wendy-blok3-panda-desktop-animated.png) no-repeat center center;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	height: 700px;
+}
+
 
 /*header box for personal pages*/
 .boxmain {
@@ -74,11 +76,12 @@
 	background-color: #171717;
 	padding: 15px 0px;
 	text-align: center;
-	height: 520px;
+	height: 670px;
+	opacity: 90%;
 }
 
 .boxmain__text {
-	padding-top: 200px;
+	padding-top: 250px;
 	font-size: 20px;
 }
 
@@ -86,7 +89,7 @@
 /*personal picture in the header*/
 .boxmain img {
 	position: absolute;
-	top: 5%;
+	top: 8%;
 	left: 35%;
 	width: 25%;
 }
@@ -94,7 +97,7 @@
 /*Animated arrow section*/
 .arrow{
     position: absolute;
-    bottom: 10%;
+    bottom: 12%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -132,12 +135,24 @@
 /*Blue line onder header*/
 .starttext {
 	position: absolute;
-	top: 60%;
+	top: 80%;
 	color: white;
 	background-color: #3562FF;
 	padding: 15px 0px;
 	text-align: center;
 	width: 100%;
+}
+.introleer {
+	grid-column: 1/7;
+	height: 300px;
+	justify-content: center;
+	align-items: left;
+	margin: 0px;
+	display: flex;
+}
+
+.introleer__text {
+	flex: 0 0 900px;
 }
 
 
@@ -163,7 +178,6 @@
 	background: url(../images/dave-HeaderBlokjeBlok1DaveDesktop.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
-	margin-left: 2em;
 	padding: 0;
 	height: 255px;
 	width: 90%;
@@ -171,11 +185,11 @@
 
 .blok2 {
 	grid-area: blok2;
-	background: url(../images/dave-HeaderBlokjeBlok2DaveDesktop.png) no-repeat center center;
+	background: url(../images/HeaderBlokjeBlok2Dave.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
-	height: 240px;
+	height: 255px;
 	width: 90%;
 }
 
@@ -185,7 +199,7 @@
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
-	height: 240px;
+	height: 255px;
 	width: 90%;
 }
 
@@ -267,6 +281,21 @@
 	font-size: 40px;
 }
 
+.buttdeli {
+	background-color: #FFFFFF;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+	border: none;
+	margin: 40px 0px;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 30%;
+	height: 20%;
+	color: black;
+}
+
 .portlink {
 	background-color: #FFFFFF;
 	font-size: 20px;
@@ -284,4 +313,103 @@
 .portlink a:hover {
 	background-color: #000000;
 	color: #FFFFFF;
+}
+
+/*Wrapper for blog3 of Wendy*/
+.animewrapper {
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: auto auto auto auto;
+	grid-template-areas: 
+		'.circle__text .circle__img'
+		'.squid__img .squid__text'
+		'.blob__text .blob__img'
+		'.panda__img .panda__text'
+		'.triangle__text .triangle__img'
+		'.cactus__img .cactus__text';
+}
+
+.circle, .blob, .triangle {
+	grid-column: 1/5;
+	height: 650px;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 0px;
+}
+
+.circle__img {
+	grid-column: 3/5;
+}
+
+.squid {
+	grid-column: 1/5;
+	height: 650px;
+	background-color: #005E7C;
+}
+
+.squid__text, .panda__text, .cactus__text {
+	position: absolute;
+	left: 50%;
+	grid-column: 3/5;
+	margin: 4em;
+}
+
+.circle__text, .blob__text, .triangle__text {
+	position: absolute;
+	margin: 4em;
+	left: 2%;
+}
+
+.circle__img, .blob__img, .triangle__img {
+	position: absolute;
+	left: 50%;
+	margin: 0px; 
+}
+
+.circle__img img {
+	width: 85%;
+}
+
+.blob__img img {
+	width: 85%;
+}
+
+.panda__img img {
+	width: 35%;
+}
+
+.triangle__img img {
+	width: 85%;
+}
+
+.cactus__img img {
+	width: 35%;
+}
+
+.squid__img {
+	width: 100%;
+	position: flex;
+	margin-top: 0px; 
+}
+
+
+.blob__img {
+	grid-column: 3/5;
+}
+
+.panda {
+	grid-column: 1/5;
+	height: 650px;
+	background-color: #A6D3DC;
+}
+
+.triangle__img {
+	grid-column: 3/5;
+}
+
+
+
+.cactus {
+	grid-column: 1/5;
+	height: 650px;
 }

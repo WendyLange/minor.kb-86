@@ -368,10 +368,11 @@ background-image {
 .site-footer
 {
   background-color:#26272b;
-  padding:45px 0 20px;
+  padding: 30px 100px 30px;
   font-size:15px;
   line-height:24px;
   color:#737373;
+  height: 300px;
 }
 .site-footer hr
 {
@@ -439,7 +440,10 @@ background-image {
 {
   margin:0
 }
-
+.footer-box1, .footer-box2, .footer-box3{
+	width: 20%;
+	float: left;
+}
 /*end footer*/
 
 

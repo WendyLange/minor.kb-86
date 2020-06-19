@@ -50,7 +50,7 @@
 }
 
 .starteblog2 {
-	background: url(../images/wendy-blog1-header.png) no-repeat center center;
+	background: url(../images/wendy-blok2-header.png) no-repeat center center;
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
@@ -135,7 +135,7 @@
 /*Blue line onder header*/
 .starttext {
 	position: absolute;
-	top: 80%;
+	top: 82%;
 	color: white;
 	background-color: #3562FF;
 	padding: 15px 0px;

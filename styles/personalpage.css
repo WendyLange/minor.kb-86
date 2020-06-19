@@ -38,9 +38,24 @@ img {
 }
 
 .introduction {
-	grid-column: 3/5;
-	height: 250px;
+	grid-column: 1/7;
+	height: 300px;
 	margin-top: 25px;
+
+}
+
+.visual {
+	grid-column: 1/7;
+	height: 150px;
+	margin: 0px;
+	margin-top: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+}
+
+.visual__text {
+	flex: 0 0 900px;
 }
 
 .mijnwerk {

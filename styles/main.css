@@ -57,7 +57,7 @@ header a:hover .image-dave, header a:hover .image-ploy, header a:hover .image-ti
 	opacity: 1;
 }*/
 .frontpage a {
-	  background: #3561FF
+	  background: #3561FF;
 }
 .hover-text-dave, .hover-text-ploy, .hover-text-tim, .hover-text-wendy  {
 	position: absolute;
@@ -196,9 +196,9 @@ header p {
 	bottom: 50px;
 }
 
-.blok-wendy img {
+/*.blok-wendy img {
 	background-color: white;
-}
+}*/
 .blok-profiles a h2 {
 	font-size: 30px;
 	font-weight: bold;

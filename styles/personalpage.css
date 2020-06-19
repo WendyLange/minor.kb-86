@@ -58,9 +58,24 @@ img {
 	flex: 0 0 900px;
 }
 
+.visuald {
+	grid-column: 1/7;
+/*	height: 150px;*/
+	margin: 0px;
+	margin-top: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	margin-bottom: 4em;
+}
+
+.visuald__text {
+	flex: 0 0 1000px;
+}
+
 .mijnwerk {
 	grid-column: 1/7;
-	height: 300px;
+	height: 350px;
 	background-color: #3562FF;
 	margin: 0px;
 	display: flex;

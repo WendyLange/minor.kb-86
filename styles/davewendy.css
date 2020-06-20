@@ -142,6 +142,23 @@
 	text-align: center;
 	width: 100%;
 }
+
+/*New header without blue line*/
+.starteblog2__text {
+	position: absolute;
+	right: 5%;
+	bottom: 20%;
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+.starteblog2__text p {
+	text-transform: uppercase;
+}
+
+
+
 .introleer {
 	grid-column: 1/7;
 	height: 300px;
@@ -287,12 +304,12 @@
 	text-decoration: none;
 	text-align: center;
 	border: none;
-	margin: 40px 0px;
+	margin: 30px 0px;
 	padding: 10px;
 	border-radius: 5px;
 	cursor: pointer;
 	width: 30%;
-	height: 20%;
+	height: 40%;
 	color: black;
 }
 
@@ -303,7 +320,7 @@
 	text-align: center;
 	border: none;
 	margin: 60px 120px;
-	padding: 10px;
+	padding: 15px;
 	border-radius: 5px;
 	cursor: pointer;
 	width: 50%;

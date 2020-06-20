@@ -70,7 +70,12 @@ img {
 }
 
 .visuald__text {
-	flex: 0 0 1000px;
+	flex: 0 0 1100px;
+}
+
+.visuald img {
+	max-height: 500px;
+	max-width: 500px;
 }
 
 .mijnwerk {
@@ -84,7 +89,7 @@ img {
 }
 
 .mijnwerk__text {
-	flex: 0 0 900px;
+	flex: 0 0 1100px;
 	color: #FFFFFF;
 }
 

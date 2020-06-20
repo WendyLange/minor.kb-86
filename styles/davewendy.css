@@ -43,6 +43,7 @@
 
 .starteblog1 {
 	background: url(../images/wendy-blog1-header.png) no-repeat center center;
+/*	clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 0% 82%);*/
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
@@ -51,6 +52,7 @@
 
 .starteblog2 {
 	background: url(../images/wendy-blok2-header.png) no-repeat center center;
+/*	clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 0% 82%);*/
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
@@ -59,14 +61,44 @@
 
 .starteblog3 {
 	background: url(../images/wendy-blok3-panda-desktop-animated.png) no-repeat center center;
+/*	clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 0% 82%);*/
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
 	height: 700px;
 }
 
+/*wave attribute for header*/
+/*#wave {
+  position: relative;
+  height: 700px;
+  width: 100%;
+}
+#wave:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 960px;
+  height: 120px;
+  background-color: white;
+  right: -45px;
+  bottom: -55px;
+}
+#wave:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 908px;
+  height: 92px;
+  background-color: #A6D3DC;
+  left: -10px;
+  bottom: -26px;
+}*/
 
-/*header box for personal pages*/
+
+header box for personal pages
 .boxmain {
 	position: absolute;
 	top: 10.5%;
@@ -86,7 +118,7 @@
 }
 
 
-/*personal picture in the header*/
+personal picture in the header
 .boxmain img {
 	position: absolute;
 	top: 8%;
@@ -169,7 +201,7 @@
 }
 
 .introleer__text {
-	flex: 0 0 900px;
+	flex: 0 0 1100px;
 }
 
 

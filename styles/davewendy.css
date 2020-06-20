@@ -332,6 +332,15 @@
 	color: #FFFFFF;
 }
 
+/*Wrapper for blog2 of Wendy*/
+iframe{
+	width: 560px;
+	height: 315px;
+}
+
+
+
+
 /*Wrapper for blog3 of Wendy*/
 .animewrapper {
 	display: grid;

@@ -21,6 +21,15 @@ header img {
 	height: 150px;
 }
 
+.imgdavepf{
+	width: 150px;
+	height: 150px;
+	border: white;
+	border-width: 1px;
+    border-style: solid;
+    border-radius: 100px;
+}
+
 .header-box-tekst {
 	width: 600px;
 	height: 500px;

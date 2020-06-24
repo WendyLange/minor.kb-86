@@ -17,7 +17,7 @@
 
 }
 
-.navbar-right{
+#navbar-right{
   float: right;
   margin: auto;
   margin-top: 20px;
@@ -80,7 +80,7 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }*/
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
   body{
     width: 70%;
   }
@@ -93,4 +93,64 @@
     font-family: roboto;
     color: #ffffff;
   }
+}*/
+
+
+.navbar-right {
+  overflow: hidden;
 }
+
+.navbar-right a {
+  float: left;n
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar-right .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+   /*hamburger deel*/
+  .navbar-right a {
+    display: none;
+  }
+  .navbar-right a.icon {
+    float: right;
+    display: block;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 0px 20px 0px;
+    margin: 0px 0px;
+  }
+
+  /*header*/
+
+}
+
+
+@media screen and (max-width: 600px) {
+  /*hamburger responsive deel*/
+  .navbar-right.responsive {
+    margin-top: 0px;
+    padding: 0px 20px;
+    height: 240px;
+    
+  }
+  .navbar-right.responsive .icon {
+    position: absolute;
+    right: 108px;
+    top: 20px;
+
+  }
+  .navbar-right.responsive a {
+    float: none;
+    display: block;
+    text-decoration: none;
+  }
+  
+}
+

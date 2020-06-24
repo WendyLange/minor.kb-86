@@ -150,17 +150,4 @@ img {
 	cursor: pointer;
 	width: 20%;
 }
-@media only screen and (max-width: 768px) {
-	body{
-		width: 70%;
-	}
-	h1{
-		color: red;
-	}
-	h2{
-		font-weight: bold;
-		font-size: 30px;
-		font-family: roboto;
-		color: #ffffff;
-	}
-}
+

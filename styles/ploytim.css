@@ -30,6 +30,13 @@ header img {
     border-radius: 100px;
 }
 
+
+.header-box-tekst .img {
+	width: 150px;
+	height: 150px;
+}
+
+
 .header-box-tekst {
 	width: 600px;
 	height: 500px;
@@ -61,7 +68,7 @@ header img {
 	height: 20%;
 	background-color: #3561FF;
 	position: absolute;
-	top: 90%;
+	top: 109.5%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
@@ -529,5 +536,8 @@ margin: 40px 0px 20px 0px;
 .blok-photos-blok3 img{
 	width: 100%;
 }
+
+
+
 /*end blok 3 ploy*/
 

@@ -68,7 +68,7 @@ header img {
 	height: 20%;
 	background-color: #3561FF;
 	position: absolute;
-	/*top: 109.5%;*/
+	top: 109.5%;
 	/* top: 91%*/
 	left: 50%;
 	transform: translate(-50%, -50%);

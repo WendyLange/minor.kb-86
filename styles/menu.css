@@ -34,7 +34,9 @@
 }
 
 .navbar-right {
-/*  overflow: hidden;*/
+    float: right;
+    padding-top: 1.5%;
+    padding-right: 1.5%;
 }
 
 .navbar-right a {
@@ -71,8 +73,11 @@
 @media screen and (max-width: 600px) {
   /*hamburger responsive deel*/
   .navbar-right.responsive {
+    padding-top: 1.5%;
+    padding-right: 1.5%;
     margin-top: 40%;
     height: 640px;
+    float: none;
     
   }
   .navbar-right.responsive .icon {

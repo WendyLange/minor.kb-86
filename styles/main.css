@@ -365,9 +365,7 @@ background-image {
 
 /*footer*/
 
-.container{
-	width: 70%;
-}
+
 .site-footer
 {
   background-color:#26272b;
@@ -444,8 +442,8 @@ background-image {
   margin:0
 }
 .footer-box1, .footer-box2, .footer-box3{
-	width: 20%;
-	float: left;
+	width: 325px;
+	float: right;
 }
 /*end footer*/
 

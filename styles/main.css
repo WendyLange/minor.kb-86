@@ -628,6 +628,9 @@ footer {
 	margin-top: -20%;
 }
 
+.dot{
+	display: none;
+}
 
 @media screen and (max-width: 600px) {
 

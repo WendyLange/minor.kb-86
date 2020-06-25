@@ -36,49 +36,9 @@
 		  }
 		}
 	</script>
-  <!-- <div class="dropdown">
-    <a href="dave/dave.html" class="dropbtn">Dave 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="dave/blog1.html">Blog 1</a>
-      <a href="dave/blog2.html">Blog 2</a>
-      <a href="dave/blog3.html">Blog 3</a>
-    </div>
-</div>
-<div class="dropdown">
-    <button class="dropbtn">Ploy 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="ploy/blog1.html">Blog 1</a>
-      <a href="ploy/blog2.html">Blog 2</a>
-      <a href="ploy/blog3.html">Blog 3</a>
-    </div>
-</div>
-<div class="dropdown">
-    <button class="dropbtn">Tim 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="tim/blog1.html">Blog 1</a>
-      <a href="tim/blog2.html">Blog 2</a>
-      <a href="tim/blog3.html">Blog 3</a>
-    </div>
-</div>
-<div class="dropdown">
-    <button class="dropbtn">Wendy
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="wendy/blog1.html">Blog 1</a>
-      <a href="wendy/blog2.html">Blog 2</a>
-      <a href="wendy/blog3.html">Blog 3</a>
-    </div>
-  </div> 
-</div> -->
 	<header class="frontpage">
-		<a href="dave/dave.html" class="dave-link">
+
+		<a href="dave/dave.html" class="dave-link fade">
 				<img src="images/dave-homepage.svg" class="image-dave" >
 				<div class="hover-text-dave">
 					<img src="images/dave-hover-.svg" class="dave" >
@@ -88,9 +48,10 @@
 						<p>Realiseren van website</p>
 
 				</div>
+
 			</a>
 
-		<a href="ploy/ploy.html" class="ploy-link">
+		<a href="ploy/ploy.html" class="ploy-link fade">
 				<img src="images/po.svg"  class="image-ploy">
 				<div class="hover-text-ploy">
 					<img src="images/po-hover.svg">
@@ -102,7 +63,7 @@
 				</div>
 			</a>
 
-			<a href="tim/tim.html" class="tim-link">
+			<a href="tim/tim.html" class="tim-link fade">
 				<img src="images/tim-homepage.svg" class="image-tim" >
 				<div class="hover-text-tim">
 					<img src="images/tim-hover.svg">
@@ -113,7 +74,7 @@
 				</div>
 			</a>
 
-			<a href="wendy/wendy.html" class="wendy-link">	
+			<a href="wendy/wendy.html" class="wendy-link fade">	
 				<img src="images/wendy-home-image.svg" class="image-wendy" >
 				<div class="hover-text-wendy">
 					<img src="images/wendy-hover.svg">
@@ -123,7 +84,43 @@
 						<p>Animatie</p>
 				</div>
 			</a>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
 		</header>
+		<!-- <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("fade");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script> -->
 
 		<main class="content-home">
 			<article class="about-minor">

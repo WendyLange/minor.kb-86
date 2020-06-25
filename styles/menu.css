@@ -33,75 +33,12 @@
 
 }
 
-
-
-/*.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #1F4FFF;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}*/
-/*@media only screen and (max-width: 768px) {
-  body{
-    width: 70%;
-  }
-  h1{
-    color: red;
-  }
-  h2{
-    font-weight: bold;
-    font-size: 30px;
-    font-family: roboto;
-    color: #ffffff;
-  }
-}*/
-
-
 .navbar-right {
   overflow: hidden;
 }
 
 .navbar-right a {
-  float: left;n
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -142,8 +79,8 @@
   }
   .navbar-right.responsive .icon {
     position: absolute;
-    right: 108px;
-    top: 20px;
+    right: 0;
+    top: 0;
 
   }
   .navbar-right.responsive a {

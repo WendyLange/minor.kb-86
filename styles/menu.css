@@ -34,7 +34,7 @@
 }
 
 .navbar-right {
-  overflow: hidden;
+/*  overflow: hidden;*/
 }
 
 .navbar-right a {
@@ -73,7 +73,7 @@
   /*hamburger responsive deel*/
   .navbar-right.responsive {
     margin-top: 20%;
-    height: 240px;
+    height: 640px;
     
   }
   .navbar-right.responsive .icon {

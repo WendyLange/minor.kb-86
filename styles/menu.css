@@ -17,7 +17,7 @@
 
 }
 
-.navbar-right{
+#navbar-right{
   float: right;
   margin: auto;
   margin-top: 20px;
@@ -33,64 +33,68 @@
 
 }
 
+.navbar-right {
+    float: right;
+    padding-top: 1.5%;
+    padding-right: 1.5%;
+}
 
-
-/*.dropdown {
+.navbar-right a {
   float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
+  display: block;
   color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #1F4FFF;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
+  text-align: center;
   text-decoration: none;
-  display: block;
-  text-align: left;
+  font-size: 17px;
 }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
+.navbar-right .icon {
+  display: none;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}*/
-@media only screen and (max-width: 768px) {
-  body{
-    width: 70%;
+@media screen and (max-width: 600px) {
+   /*hamburger deel*/
+  .navbar-right a {
+    display: none;
   }
-  h1{
-    color: red;
+  .navbar-right a.icon {
+    float: right;
+    display: block;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 4px 25px 0px 0px;
   }
-  h2{
-    font-weight: bold;
-    font-size: 30px;
-    font-family: roboto;
-    color: #ffffff;
-  }
+
+  /*header*/
+
 }
+
+
+@media screen and (max-width: 600px) {
+  /*hamburger responsive deel*/
+  .navbar-right.responsive {
+    padding-top: 1.5%;
+    padding-right: 1.5%;
+    margin-top: 40%;
+    height: 640px;
+    float: none;
+    
+  }
+  .navbar-right.responsive .icon {
+    font-size: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  .navbar-right.responsive a {
+    font-size: 20px;
+    line-height: 18px;
+    padding: 25px;
+    float: none;
+    display: block;
+    text-decoration: none;
+  }
+  
+}
+

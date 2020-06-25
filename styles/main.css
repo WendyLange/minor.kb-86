@@ -365,6 +365,7 @@ background-image {
 
 /*footer*/
 
+
 .site-footer
 {
   background-color:#26272b;
@@ -441,26 +442,11 @@ background-image {
   margin:0
 }
 .footer-box1, .footer-box2, .footer-box3{
-	width: 20%;
-	float: left;
+	width: 325px;
+	float: right;
 }
 /*end footer*/
 
-
-@media only screen and (max-width: 768px) {
-	body{
-		width: 70%;
-	}
-	h1{
-		color: red;
-	}
-	h2{
-		font-weight: bold;
-		font-size: 30px;
-		font-family: roboto;
-		color: #ffffff;
-	}
-}
 * {
 	box-sizing: border-box;
 }

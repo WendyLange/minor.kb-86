@@ -162,6 +162,12 @@ header img {
 	top: 20px;
 }
 
+.worksdave {
+	height: 760px;
+	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
+	top: 20px;
+}
+
 .h1-works, .p-works {
 	color: white;
 }
@@ -351,6 +357,56 @@ header img {
 	'photo4	photo5'
 	'photo6	photo7';
 }
+
+
+
+
+
+/*blok photos met tekst Dave*/
+.photolinks{
+	grid-area: photo1;
+}
+.photorechts{
+	grid-area: photo2;
+}
+.photomidden{
+	grid-area: photo3;
+	margin: auto;
+}
+.tweeblok-photos{
+	display: grid;
+	margin: auto;
+	width: 1150px;
+	grid-gap: 20px;
+	grid-template-areas: 
+	'photo1	photo2';
+}
+.tweeblok-photosversie2{
+	display: grid;
+	margin: auto;
+	width: 904px;
+	grid-gap: 20px;
+	grid-template-areas: 
+	'photo1	photo2';
+}
+.eenblok-photos{
+	display: grid;
+	margin: auto;
+	width: 1150px;
+	grid-gap: 20px;
+	grid-template-areas: 
+	'photo3';
+}
+
+
+
+
+
+
+
+
+
+
 .photo7 .artphoto {
 	width: 400px;
 	height: auto;

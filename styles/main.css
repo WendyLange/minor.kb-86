@@ -365,6 +365,9 @@ background-image {
 
 /*footer*/
 
+.container{
+	width: 70%;
+}
 .site-footer
 {
   background-color:#26272b;

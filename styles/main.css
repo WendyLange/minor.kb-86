@@ -365,6 +365,61 @@ background-image {
 
 /*footer*/
 
+.footer{
+		text-decoration: none;
+		color: white;
+		background-color: #3562FF;
+		display: grid;
+		grid-gap: 20px;
+		grid-template-areas: 
+		'footer1 footer2 footer3 footer4 footer5';
+		padding: 20px;
+	}
+.footer h3 a {
+	color: white;
+	text-decoration: none;
+	}
+	.footer ul li a {
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	}
+	.footer ul li  {
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	}
+	.footer ul{
+		  list-style-type: none;
+  			margin: 0;
+  			padding: 0;
+  			line-height: 32px;
+
+	}
+	.footer h3{
+	margin-bottom: 20px;
+	}
+	.footer1{
+	text-decoration: none;
+	width: 250px;
+	grid-area: footer1;
+}
+.footer2{
+	width: 250px;
+	grid-area: footer2;
+}
+.footer3{
+	width: 250px;
+	grid-area: footer3;
+}
+.footer4{
+	width: 250px;
+	grid-area: footer4;
+}
+.footer5{
+	width: 250px;
+	grid-area: footer5;
+}
 
 .site-footer
 {
@@ -784,6 +839,9 @@ footer {
 	}
 
 	/*footer*/
+
+	
+
 
 	.site-footer {
     background-color: #26272b;

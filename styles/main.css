@@ -742,6 +742,7 @@ footer {
 	.p-about, .p-deelnemers {
     font-weight: 300;
     font-size: 16px;
+    line-height: 20px
     margin: auto;
     width: 339px;
     padding: 10px;

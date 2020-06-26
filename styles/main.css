@@ -638,88 +638,152 @@ footer {
 	/*a img.image-dave {vertical-align: middle;}*/
 
 	/* Slideshow container */
-.frontpage {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
+	.frontpage {
+	  max-width: 1000px;
+	  position: relative;
+	  margin: auto;
+	}
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
+	/* Next & previous buttons */
+	.prev, .next {
+	  cursor: pointer;
+	  position: absolute;
+	  top: 50%;
+	  width: auto;
+	  padding: 16px;
+	  margin-top: -22px;
+	  color: white;
+	  font-weight: bold;
+	  font-size: 18px;
+	  transition: 0.6s ease;
+	  border-radius: 0 3px 3px 0;
+	  user-select: none;
+	}
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+	/* Position the "next button" to the right */
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover, .next:hover {
+	  background-color: rgba(0,0,0,0.8);
+	}
 
-/* Caption text */
-/*.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}*/
+	/* Caption text */
+	/*.text {
+	  color: #f2f2f2;
+	  font-size: 15px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  bottom: 8px;
+	  width: 100%;
+	  text-align: center;
+	}*/
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+	/* The dots/bullets/indicators */
+	.dot {
+	  cursor: pointer;
+	  height: 15px;
+	  width: 15px;
+	  margin: 0 2px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease;
+	}
 
-.active, .dot:hover {
-  background-color: #717171;
-}
+	.active, .dot:hover {
+	  background-color: #717171;
+	}
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+	/* Fading animation */
+	.fade {
+	  -webkit-animation-name: fade;
+	  -webkit-animation-duration: 1.5s;
+	  animation-name: fade;
+	  animation-duration: 1.5s;
+	}
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+	/*over de minor*/
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+	.h1-about, .h1-deelnemers {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 0;
+	}	
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
+	.line1-about {
+    width: 164px;
+    left: 10px;
+    float: left;
+    border: 3px solid #3561FF;
+	}
+	.line1-deelnemers {
+    width: 164px;
+    left: 10px;
+    float: left;
+    border: 3px solid white;
+	}
+	.line2-about {
+    width: 49px;
+    left: 183px;
+    float: right;
+    border: 3px solid #3561FF;
+	}
+	.line2-deelnemers {
+    width: 49px;
+    left: 183px;
+    float: right;
+    border: 3px solid white;
+	}
+	.p-about, .p-deelnemers {
+    font-weight: 300;
+    font-size: 14px;
+    margin: auto;
+    width: 339px;
+    padding: 10px;
+	}
+
+/*	blokken profiles*/
+
+	.blok-profiles {
+    display: grid;
+    grid-gap: 20px;
+    width: 340px;
+    height: 191px;
+    margin: auto;
+    grid-template-areas: 
+    'blokD' 
+    'blokP' 
+    'blokT' 
+    'blokW';
+    }
+    .blok-profiles a {
+    background-color: #3562FF;
+    width: 340px;
+    height: 191px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    margin: auto;
+
+	@-webkit-keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+
+	@keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+	  .prev, .next,.text {font-size: 11px}
+	}
 
 
 }

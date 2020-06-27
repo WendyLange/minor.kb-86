@@ -12,3 +12,117 @@
 	/*background-color: #f1f1f1;*/
 }
 
+/*Wrapper for Blog 2 - Wendy*/
+.vidwrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+		"logo logo logo logo"
+		"imgone imgone imgtwo imgtwo"
+		"naamaan naamaan naamvid naamvid"
+		"stillvid stillvid still still"
+		"bumper bumper bumper bumper"
+		"bumpervidone bumpervidone bumpervidtwo bumpervidtwo"
+		"leader leader leader leader"
+		"leadervid leadervid leadervid leadervid";
+	padding: 2em;
+}
+
+.logoblog {
+	grid-area: logo;
+	background-color: #2DE1FC;
+	padding: 2em;
+}
+
+.imgone {
+	grid-area: imgone;
+	padding: 2em;
+}
+
+.imgone img,  .imgtwo img{
+	max-height: 500px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width:50%;
+}
+
+.imgtwo {
+	grid-area: imgtwo;
+	padding: 2em;
+}
+
+
+.naamaanduiding {
+	grid-area: naamaan;
+	background-color: #2AFC98;
+	padding: 2em;
+}
+
+.naamvid {
+	grid-area: naamvid;
+	background-color: #09E85E;
+	padding: 2em;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+}
+
+.still {
+	grid-area: still;
+	background-color: #2DE1FC;
+	padding: 2em;
+}
+
+.stillvid {
+	grid-area: stillvid;
+	background-color: #16C172;
+	padding: 2em;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+}
+
+.bumper {
+	grid-area: bumper;
+	background-color: #214F4B;
+	padding: 2em;
+}
+
+.bumpervid1 {
+	grid-area: bumpervidone;
+	background-color: #2AFC98;
+	padding: 2em;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+}
+
+.bumpervid2 {
+	grid-area: bumpervidtwo;
+	background-color: #09E85E;
+	padding: 2em;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+}
+
+.leader {
+	grid-area: leader;
+	background-color: #214F4B;
+	padding: 2em;
+}
+
+.leadervid {
+	grid-area: leadervid;
+	background-color: #2DE1FC;
+	padding: 5em 8em;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width:50%;
+}

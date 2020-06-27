@@ -37,12 +37,12 @@ img {
 	margin-left: 150px;
 }
 
-.introduction {
+/*.introduction {
 	grid-column: 1/7;
 	height: 300px;
 	margin-top: 25px;
 
-}
+}*/
 
 .visual {
 	grid-column: 1/7;
@@ -125,29 +125,5 @@ img {
 
 .eigenPortfolio {
 	grid-column: 3/5;
-}
-
-.footer {
-	/*grid-column: 1/7;*/
-	background-color: #3562FF;
-
-}
-
-.footer p {
-	padding: 20px 40px;
-}
-
-/*Decoration style for the buttons*/
-.buttns {
-	background-color: #3562FF;
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	border: none;
-	margin: 20px 2px;
-	padding: 15px;
-	border-radius: 8px;
-	cursor: pointer;
-	width: 20%;
 }
 

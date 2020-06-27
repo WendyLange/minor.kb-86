@@ -26,12 +26,19 @@
 		"leader leader leader leader"
 		"leadervid leadervid leadervid leadervid";
 	padding: 2em;
+	grid-row-gap: 1em;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 0.5em;
 }
 
 .logoblog {
 	grid-area: logo;
-	background-color: #2DE1FC;
-	padding: 2em;
+	padding: 3em;
 }
 
 .imgone {
@@ -55,13 +62,11 @@
 
 .naamaanduiding {
 	grid-area: naamaan;
-	background-color: #2AFC98;
-	padding: 2em;
+	padding: 3em;
 }
 
 .naamvid {
 	grid-area: naamvid;
-	background-color: #09E85E;
 	padding: 2em;
 	display: block;
   	margin-left: auto;
@@ -71,13 +76,11 @@
 
 .still {
 	grid-area: still;
-	background-color: #2DE1FC;
-	padding: 2em;
+	padding: 3em;
 }
 
 .stillvid {
 	grid-area: stillvid;
-	background-color: #16C172;
 	padding: 2em;
 	display: block;
   	margin-left: auto;
@@ -87,13 +90,11 @@
 
 .bumper {
 	grid-area: bumper;
-	background-color: #214F4B;
-	padding: 2em;
+	padding: 3em;
 }
 
 .bumpervid1 {
 	grid-area: bumpervidone;
-	background-color: #2AFC98;
 	padding: 2em;
 	display: block;
   	margin-left: auto;
@@ -103,7 +104,6 @@
 
 .bumpervid2 {
 	grid-area: bumpervidtwo;
-	background-color: #09E85E;
 	padding: 2em;
 	display: block;
   	margin-left: auto;
@@ -113,13 +113,11 @@
 
 .leader {
 	grid-area: leader;
-	background-color: #214F4B;
-	padding: 2em;
+	padding: 3em;
 }
 
 .leadervid {
 	grid-area: leadervid;
-	background-color: #2DE1FC;
 	padding: 5em 8em;
 	display: block;
   	margin-left: auto;

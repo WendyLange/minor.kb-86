@@ -467,14 +467,21 @@ margin: 40px 0px 20px 0px;
 /*blok 2 photos*/
 .blok2-photos{
 	margin: auto;
-	grid-gap: 50px;
-	display: grid;
-	grid-template-areas: 
-	'photo1-2 photo2-2'
-	'photo3-2 photo3-2'
-	'photo4-2 photo5-2'
-	'photo6-2 photo7-2';
+/*	grid-gap: 50px;*/
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	/*grid-template-areas: 
+	'photo1-blok2 photo2-blok2';*/
 
+}
+.photo1-blok2{
+	grid-area: photo1-blok2;
+	height: 500px;
+}
+.photo2-blok2{
+	grid-area: photo2-blok2;
+	height: 500px;
 }
 .blok2-photos img{
 		width: 605px;

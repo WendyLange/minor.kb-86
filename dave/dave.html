@@ -16,14 +16,27 @@
 		<div class="navbar">
 			<a href="../index.html" class="logo"><img class="logo1" src="../images/logo.svg"></a>
 
-			<div class="navbar-right">
+			<div id="menu" class="navbar-right">
 			  	<a href="../index.html">Home</a>
-			  	<a href="../dave/dave.html">Dave van der Drift</a>
+			  	<a href="dave.html">Dave van der Drift</a>
 			  	<a href="../ploy/ploy.html">Ploy Luealai</a>
 			 	<a href="../tim/tim.html">Tim Seitzinger</a>
 			 	<a href="../wendy/wendy.html">Wendy de Lange</a>
+			 	<a href="#" class="icon" onclick="myFunction()">
+   				&#9776; 
+  				</a>
 			</div>
 		</div>
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("menu");
+			  if (x.className === "navbar-right") {
+			    x.className += " responsive";
+			  } else {
+			    x.className = "navbar-right";
+			  }
+			}
+		</script>
 		
 			<img src="../images/HeaderPersoonspaginaDaveDesktop.png" style="width: 100%;">
 			<div class="header-box">

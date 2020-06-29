@@ -872,6 +872,21 @@ footer {
 	height: 300px;
 
 }
+.footer{
+		margin-top: 1100px;
+		text-decoration: none;
+		color: white;
+		background-color: #3562FF;
+		display: grid;
+		grid-gap: 20px;
+		grid-template-areas: 
+		'footer1' 
+		'footer2' 
+		'footer3' 
+		'footer4' 
+		'footer5';
+		padding: 30px;
+	}
 
 }
 

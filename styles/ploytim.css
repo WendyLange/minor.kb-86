@@ -213,7 +213,7 @@ header img {
 	display: grid;
 	grid-gap: 50px;
 	grid-template-areas: 
-	'. blokEen blokTwee blokDrie .';
+	'blokEen blokTwee blokDrie';
 }
 .blokken a {
 	background-color: #3562FF;
@@ -592,3 +592,66 @@ margin: 40px 0px 20px 0px;
 
 /*end blok 3 ploy*/
 
+@media only screen and (max-width: 600px) {
+/*Ploy page*/
+	.header-box {
+    width: 100%;
+    height: 200px;
+    top: 550px;
+}
+
+/*tim page*/
+
+.header-box-tekst .img {
+    width: 75px;
+    height: 75px;
+}
+.header-box-tekst h1 {
+    font-size: 30px;
+}
+ 
+.header-box-tekst p {
+    font-size: 20px;
+}
+.h1-intro, .h1-works, .h1-visual {
+    font-size: 30px;
+    text-align: left;
+}
+.p-intro, .p-works, .p-visual {
+    font-size: 14px;
+    margin: auto;
+    width: auto;
+    line-height: 20px;
+}
+.blokken {
+    padding: 4%;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas:
+    'blokEen' 
+    'blokTwee' 
+    'blokDrie';
+}
+.portfolio {
+    margin: 12% 5% 12% 5%;
+    padding: 4%;
+    padding-right: 0;
+    display: grid;
+    grid-template-areas: 
+    'tekst' 
+    'knop';
+}
+.works{
+	height: 100%;
+}
+.tekst h1 {
+    font-size: 30px;
+}
+.tekst p {
+    font-size: 14px;
+    width: 81%;
+}
+.portfolio button {
+    width: 300px;

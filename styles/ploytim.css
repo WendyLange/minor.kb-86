@@ -616,6 +616,7 @@ margin: 40px 0px 20px 0px;
 .h1-intro, .h1-works, .h1-visual {
     font-size: 30px;
     text-align: left;
+    margin-top: 10px;
 }
 .p-intro, .p-works, .p-visual {
     font-size: 14px;
@@ -655,5 +656,18 @@ margin: 40px 0px 20px 0px;
 }
 .portfolio button {
     width: 300px;
+}
+header img {
+	height: 700px;
+}
+.line-intro, .line-works, .line-port, .line-visual {
+    box-sizing: border-box;
+    width: 164px;
+    margin: auto 0%;
+}
+.line2, .line-works-2, .line-visual-2 {
+    width: 49px;
+    box-sizing: border-box;
+    margin: auto -20%;
 }
 }

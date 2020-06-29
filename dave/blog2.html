@@ -15,14 +15,27 @@
 	<div class="navbar">
 			<a href="../index.html" class="logo"><img class="logo1" src="../images/logo.svg"></a>
 
-			<div class="navbar-right">
+			<div id="menu" class="navbar-right">
 			  	<a href="../index.html">Home</a>
-			  	<a href="../dave/dave.html">Dave van der Drift</a>
+			  	<a href="dave.html">Dave van der Drift</a>
 			  	<a href="../ploy/ploy.html">Ploy Luealai</a>
 			 	<a href="../tim/tim.html">Tim Seitzinger</a>
 			 	<a href="../wendy/wendy.html">Wendy de Lange</a>
+			 	<a href="#" class="icon" onclick="myFunction()">
+   				&#9776; 
+  				</a>
 			</div>
 		</div>
+		<script>
+			function myFunction() {
+			  var x = document.getElementById("menu");
+			  if (x.className === "navbar-right") {
+			    x.className += " responsive";
+			  } else {
+			    x.className = "navbar-right";
+			  }
+			}
+		</script>
 
 		<!-- This is the main part of the webpage -->
 		<img src="../images/../images/HeaderBlok1DaveDesktop.png" style="width: 100%;">
@@ -70,7 +83,7 @@
 					<p class="p-works">Ik heb elke week bijgehouden wat mijn progressie was omtrent het maken van de logo’s. Om mijn progressie te kunnen zien kan er gekeken worden naar mijn persoonlijke blog.</p>
 					
 					<div class="button-white">
-						<a href="#"><button class="buttons-white">Link naar de blog</button></a>
+						<a href="https://kb-86.cmd-denhaag.nl/?author=24"><button class="buttons-white">Link naar de blog</button></a>
 					</div>
 				</div>
 			</article>
@@ -182,48 +195,11 @@
 			</div>
 		</div>
 		
-			
 			<!-- footer van de pagina -->
-			<footer>
-				<div class="footer">
-					<div class="footer1">
-  						<h3><a href="">Over de minor</h3>
-           					<a href="../index.html" class="logo-footer"><img class="logo-footer1" src="../images/logo.svg"></a>
-  					</div>
-  					<div class="footer2">
-  						<h3><a href="dave.html">Dave van der Drift</h3>
-           					<ul>
-				              <li><a href="blog1.html">Herontwerp website</a></li>
-				              <li><a href="blog2.html">Maken van logo's</a></li>
-				              <li><a href="blog3.html">Realiseren van website</a></li>
-           					</ul>
-  					</div>
-  					<div class="footer3">
-  						<h3><a href="../ploy/ploy.html">Ploy Luealai</h3>
-           					<ul>
-				              <li><a href="../ploy/blog1.html">Graphics Design</a></li>
-				              <li><a href="../ploy/blog2.html">3D en Animatie</a></li>
-				              <li><a href="../ploy/blog3.html">Illustratie</a></li>
-           					</ul>
-  					</div>
-  					<div class="footer4">
-  						<h3><a href="../tim/tim.html">Tim Seitzinger</h3>
-           					<ul>
-				              <li><a href="../tim/blog1.html">Motion Graphics</a></li>
-				              <li><a href="../tim/blog2.html">Digital Painting</a></li>
-				              <li><a href="../tim/blog3.html">3D karakter en Animatie</a></li>
-           					</ul>
-  					</div>
-  					<div class="footer5">
-  						<h3><a href="../wendy/wendy.html">Wendy de Lange</h3>
-           					<ul>
-				              <li><a href="../wendy/blog1.html">Graphics Design</a></li>
-				              <li><a href="../wendy/blog2.html">Films & televisie idents</a></li>
-				              <li><a href="../wendy/blog3.html">Animatie</a></li>
-           					</ul>
-  					</div>
-				</div>
-			</footer>
+			<div class="footer">
+				<p>&copy; 2020 <a href="">Over de minor</a>
+				<a href="">De deelnemers</a></p>
+			</div>
 		
 </body>
 </html>

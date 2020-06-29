@@ -339,6 +339,7 @@ background-image {
 
 }
 
+
 /*Footer details*/
 /*.footer {
 	background-color: #3562FF;
@@ -687,186 +688,209 @@ footer {
 	display: none;
 }
 
-@media screen and (max-width: 600px) {
+/*slider voor mobiel*/
 
-	.dave-link, .ploy-link, .tim-link, .wendy-link {display: none}
-	/*a img.image-dave {vertical-align: middle;}*/
+.prev, .next {
+  display: none;
+}
+.dot {
+  display: none;
+  }
 
-	/* Slideshow container */
-	.frontpage {
-	  max-width: 1000px;
-	  position: relative;
-	  margin: auto;
+
+ @media only screen and (max-width: 600px) {
+ 
+	 .prev, .next {
+	  display: block;
 	}
-
-	/* Next & previous buttons */
-	.prev, .next {
-	  cursor: pointer;
-	  position: absolute;
-	  top: 50%;
-	  width: auto;
-	  padding: 16px;
-	  margin-top: -22px;
-	  color: white;
-	  font-weight: bold;
-	  font-size: 18px;
-	  transition: 0.6s ease;
-	  border-radius: 0 3px 3px 0;
-	  user-select: none;
-	}
-
-	/* Position the "next button" to the right */
-	.next {
-	  right: 0;
-	  border-radius: 3px 0 0 3px;
-	}
-
-	/* On hover, add a black background color with a little bit see-through */
-	.prev:hover, .next:hover {
-	  background-color: rgba(0,0,0,0.8);
-	}
-
-	/* Caption text */
-	/*.text {
-	  color: #f2f2f2;
-	  font-size: 15px;
-	  padding: 8px 12px;
-	  position: absolute;
-	  bottom: 8px;
-	  width: 100%;
-	  text-align: center;
-	}*/
-
-	/* The dots/bullets/indicators */
 	.dot {
-	  cursor: pointer;
-	  height: 15px;
-	  width: 15px;
-	  margin: 0 2px;
-	  background-color: #bbb;
-	  border-radius: 50%;
-	  display: inline-block;
-	  transition: background-color 0.6s ease;
+	  display: block;
 	}
 
-	.active, .dot:hover {
-	  background-color: #717171;
+	.frontpage {
+	    max-width: 1000px;
+	    position: relative;
+	    margin: auto;
 	}
 
-	/* Fading animation */
-	.fade {
-	  -webkit-animation-name: fade;
-	  -webkit-animation-duration: 1.5s;
-	  animation-name: fade;
-	  animation-duration: 1.5s;
-	}
-
-	/*over de minor*/
-
-	.line-about, .line-deelnemers {
-    box-sizing: border-box;
-    width: 330px;
-    margin: auto;
-	}
-
-	.h1-about, .h1-deelnemers {
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
     font-weight: bold;
-    font-size: 30px;
-    text-align: left;
-    margin-top: 20px;
-	}	
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
 
-	.line1-about {
-    width: 164px;
-    left: 10px;
-    float: left;
-    border: 3px solid #3561FF;
-	}
-	.line1-deelnemers {
-    width: 164px;
-    left: 10px;
-    float: left;
-    border: 3px solid white;
-	}
-	.line2-about {
-    width: 49px;
-    left: 183px;
-    float: right;
-    border: 3px solid #3561FF;
-	}
-	.line2-deelnemers {
-    width: 49px;
-    left: 183px;
-    float: right;
-    border: 3px solid white;
-	}
-	.p-about, .p-deelnemers {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 20px
-    margin: auto;
-    width: 339px;
-    padding: 10px;
-	}
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
 
-/*	blokken profiles*/
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
 
-	.blok-profiles {
-    display: grid;
-    grid-gap: 20px;
-    width: 340px;
-    height: 191px;
-    margin: auto;
-    grid-template-areas: 
-    'blokD' 
-    'blokP' 
-    'blokT' 
-    'blokW';
-    }
-    .blok-profiles a {
-    background-color: #3562FF;
-    width: 340px;
-    height: 191px;
-    text-align: center;
-    font-size: 30px;
-    text-decoration: none;
-    margin: auto;
-	}
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
 
-	.blok-profiles a img {
-    width: 100%;
-    height: 76px;
-	}
+  .active, .dot:hover {
+    background-color: #717171;
+  }
 
-	/*footer*/
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
 
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+.hover-text-dave, .hover-text-ploy, .hover-text-tim, .hover-text-wendy  {
+	position: absolute;
+	transition: 0.5s ease;
+	opacity: 1;
+  	text-align: center;
+  	width: 375px;
+  	
+}
+
+.hover-text-dave img.dave, .hover-text-ploy img.ploy, .hover-text-tim img.tim, .hover-text-wendy img.wendy {
+	width: 76px;
+	height: auto;
+	padding: 0px;
+}
+
+.frontpage h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+}
+.frontpage p {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 35px;
+	padding: 0;
+}
+
+.hover-text-dave, .hover-text-ploy, .hover-text-tim, .hover-text-wendy {
+	top: 80%;
+	left: 50%;
+}
+
+
+.image-dave, .image-ploy, .image-tim, .image-wendy {
+	opacity: 0.5;
 	
+}
+.hover-text-dave {
+	max-width: 425px;
+	height: auto;
+}
 
+/*over minor en deelnemers*/
+.content-home{
+	height: 2000px;
+}
+.about-minor p {
+	padding-top: 2%;
+}
+.about-minor h1, .deelnemers h1 {
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+}
+.about-minor p, .deelnemers p {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	width: 100%;
+	padding: 0;
+}
+.about-minor p {
+	padding-top: 5%;
+}
+.deelnemers p.p-deelnemers {
+	padding-top: 5%;
+}
 
-	.site-footer {
-    background-color: #26272b;
-    padding: 30px 100px 30px;
-    font-size: 15px;
-    line-height: 24px;
-    color: #737373;
-    height: auto;
-	}
+.line1-about, .line1-deelnemers {
+	width: 70%;
+}
+.line2-about, .line2-deelnemers {
+	width: 25%
+}
+.line-about, .line-deelnemers {
+	margin:0;
+	width: 60%;
+}
+.ruimte-deelnemers {
+	padding-top: 10%;
+}
+/*blok-profiles*/
 
-
-	@-webkit-keyframes fade {
-	  from {opacity: .4} 
-	  to {opacity: 1}
-	}
-
-	@keyframes fade {
-	  from {opacity: .4} 
-	  to {opacity: 1}
-	}
-
-	/* On smaller screens, decrease text size */
-	@media only screen and (max-width: 300px) {
-	  .prev, .next,.text {font-size: 11px}
-	}
-
+.blok-profiles {
+	display: grid;
+	
+	margin: auto;
+	grid-gap: 30px;
+	padding-top: 10%;
+	grid-template-areas: 
+	'blokD' 
+	'blokP' 
+	'blokT'
+	'blokW'
+}
+.blok-profiles a {
+	width: 315px;
+	height: 300px;
 
 }
+.footer{
+		
+		grid-template-areas: 
+		'footer1' 
+		'footer2' 
+		'footer3' 
+		'footer4' 
+		'footer5';
+	}
+
+}
+
+/* On smaller screens, decrease text size */
+/*@media only screen and (max-width: 300px) {
+  .prev, .next,.text {
+    font-size: 11px;
+  }
+}*/

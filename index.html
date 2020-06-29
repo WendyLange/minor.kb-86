@@ -54,7 +54,7 @@
 		<a href="ploy/ploy.html" class="ploy-link fade">
 				<img src="images/po.svg"  class="image-ploy">
 				<div class="hover-text-ploy">
-					<img src="images/po-hover.svg">
+					<img src="images/po-hover.svg" class="ploy">
 					<h1>Ploy Luealai</h1>
 						<p>Graphic Design</p>
 						<p>3D en animatie</p>
@@ -66,7 +66,7 @@
 			<a href="tim/tim.html" class="tim-link fade">
 				<img src="images/tim-homepage.svg" class="image-tim" >
 				<div class="hover-text-tim">
-					<img src="images/tim-hover.svg">
+					<img src="images/tim-hover.svg" class="tim">
 					<h1>Tim Seitzinger</h1>
 						<p>Motion Graphics</p>
 						<p>Digital Painting</p>
@@ -77,14 +77,14 @@
 			<a href="wendy/wendy.html" class="wendy-link fade">	
 				<img src="images/wendy-home-image.svg" class="image-wendy" >
 				<div class="hover-text-wendy">
-					<img src="images/wendy-hover.svg">
+					<img src="images/wendy-hover.svg" class="wendy">
 					<h1>Wendy de Lange</h1>
 						<p>Graphics Design</p>
 						<p>Cliënt case: DWDD</p>
 						<p>Animatie</p>
 				</div>
 			</a>
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 		<a class="next" onclick="plusSlides(1)">&#10095;</a>
 		</header>
 		<br>
@@ -92,42 +92,52 @@
 		  <span class="dot" onclick="currentSlide(1)"></span> 
 		  <span class="dot" onclick="currentSlide(2)"></span> 
 		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(4)"></span>
 		</div>
 		<script>
-			// window.addEventListener('resize', function slideIndex(){
-   //  		if(window.innerWidth > 600){
-   			
-				var slideIndex = 1;
-				showSlides(slideIndex);
+			
+			
+			var slideIndex = 1;
+			showSlides(slideIndex);
 
-				// var n = window.matchMedia ("screen and (max-width: 600px)")
+		
 
-				function plusSlides(n) {
-				  showSlides(slideIndex += n);
-				}
-
-				function currentSlide(n) {
-				  showSlides(slideIndex = n);
-				}
-
-				function showSlides(n){
-				  var i;
-				  var slides = document.getElementsByClassName("fade");
-				  var dots = document.getElementsByClassName("dot");
-				  if (n > slides.length){slideIndex = 1}    
-				  if (n < 1) {slideIndex = slides.length}
-				  for (i = 0; i < slides.length; i++) {
-				      slides[i].style.display = "none";  
-				  }
-				  
-				  for (i = 0; i < dots.length; i++) {
-				      dots[i].className = dots[i].className.replace(" active", "");
-				  }
-				  slides[slideIndex-1].style.display = "block";  
-				  dots[slideIndex-1].className += " active";
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
 			}
 
-	</script>
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n){
+
+			  var i;
+			  var slides = document.getElementsByClassName("fade");
+			  var dots = document.getElementsByClassName("dot");
+			  var mql = window.matchMedia("(max-width: 600px)");
+			  if (n > slides.length){slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  	if (mql.matches) {
+					  for (i = 0; i < slides.length; i++) {
+					      slides[i].style.display = "none"; } 
+			  } else {
+			  	 for (i = 0; i < slides.length; i++) {
+			      slides[i].style.display = "block";  }
+			  
+			}
+
+			  
+			  for (i = 0; i < dots.length; i++) {
+			      dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+
+	
+
+		}
+		</script>
 
 		<main class="content-home">
 			<article class="about-minor">
@@ -160,7 +170,7 @@
 					</p>
 
 					<aside class="blok-profiles">
-						<a href="" class="blok-dave">
+						<a href="dave/dave.html" class="blok-dave">
 							<img src="images/home-foto-d.svg" width="450" height="300" class="home-foto-d">
 							<div class="profiles">
 								<img src="images/dave-hover-.svg" style="height: 80px">
@@ -168,7 +178,7 @@
 								<p>Herontwerp website &#8211; Maken van logo’s &#8211; Realiseren van website</p>
 							</div>
 						</a>
-						<a href="" class="blok-ploy">
+						<a href="ploy/ploy.html" class="blok-ploy">
 							<img src="images/home-foto-p.svg" width="450" height="300">
 							<div class="profiles">
 								<img src="images/po-hover.svg" style="height: 80px">
@@ -176,7 +186,7 @@
 								<p>Graphic design &#8211; 3D en animatie &#8211; Illustratie</p>
 							</div>					
 						</a>
-						<a href="" class="blok-tim"> 
+						<a href="tim/tim.html" class="blok-tim"> 
 							<img src="images/home-foto-t.svg" width="450" height="300">
 							<div class="profiles">
 								<img src="images/tim-hover.svg" style="height: 80px">
@@ -184,7 +194,7 @@
 								<p>Motion Graphics &#8211; Digital Painting &#8211; 3D karakter en animatie</p>
 							</div>
 						</a>
-						<a href="" class="blok-wendy"> 
+						<a href="wendy/wendy.html" class="blok-wendy"> 
 							<img src="images/wendy-button-home.svg" width="450" height="300">
 							<div class="profiles">
 								<img src="images/w-80.svg" style="height: 80px">

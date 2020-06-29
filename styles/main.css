@@ -271,6 +271,15 @@ h2 {
 
 }
 
+
+.button-white2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+
+}
+
 /*deelnemer details hieronder*/
 .deelnemers {
 	grid-column: 1 / 5;

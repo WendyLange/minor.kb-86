@@ -628,7 +628,7 @@ margin: 40px 0px 20px 0px;
 }
 
 .blok-photos div {
-	margin: auto;
+	/*margin: auto;*/
 }
 
 /*end blok 3 ploy*/
@@ -744,6 +744,9 @@ img.behind {
 .photo1 img {
 	width: 336px;
 	height: auto;
+}
+.photo7 img {
+	width: 336px
 }
 
 .blok-photos p {

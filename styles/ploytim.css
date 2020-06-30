@@ -68,9 +68,7 @@ header img {
 	width: 100%;
 	height: 20%;
 	background-color: #3561FF;
-	position: absolute;
-	top: 116%;
-	/* top: 91%*/
+	position: relative;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
@@ -90,6 +88,7 @@ header img {
 	font-weight: lighter;
 	font-size: 40px;
 	color: white;
+	padding-bottom: 2%;
 }
 .arrow-down {
 	/*position: absolute;*/
@@ -146,12 +145,9 @@ header img {
 	
 }
 
-.ruimte-intro, .ruimte-visual  {
+.ruimte-intro, .ruimte-works, .ruimte-visual  {
 	padding: 4%;
 	padding-top: 8%;
-}
-.ruimte-works {
-	padding-top: 5%;
 }
 
 .works {
@@ -770,18 +766,8 @@ div .blok-photos .title {
 }
 /*blok 2*/
 .blok2-photos {
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	flex-wrap: wrap;
 }
-.blok2-photos iframe {
-	width: 360px;
-}
-.blok2-photos p {
-	width: 360px;
-}
-/*blok 3*/
 .blok-photos-blok3{
 	padding-top: 75px;
 	margin: auto;
@@ -798,6 +784,7 @@ div .blok-photos .title {
 	'blok3-11 blok3-12';
 
 }
+
 
 /*tim page*/
 

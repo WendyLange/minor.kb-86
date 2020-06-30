@@ -878,7 +878,7 @@ header img {
 }
 .line-intro, .line-works, .line-port, .line-visual {
     box-sizing: border-box;
-    width: 164px;
+    width: 60%;
     margin: auto 0%;
 }
 .line2, .line-works-2, .line-visual-2 {

@@ -788,10 +788,12 @@ div .blok-photos .title {
 	display: grid;
 	grid-gap: 50px;
 	grid-template-areas: 
-	'blok3-1 blok3-2 blok3-3'
-	'blok3-4 blok3-5 blok3-6'
-	'blok3-7 blok3-8 blok3-9'
-	'blok3-10 blok3-11 blok3-12';
+	'blok3-1 blok3-2' 
+	'blok3-3 blok3-4' 
+	'blok3-5 blok3-6'
+	'blok3-7 blok3-8' 
+	'blok3-9 blok3-10' 
+	'blok3-11 blok3-12';
 
 }
 

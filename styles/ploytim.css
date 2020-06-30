@@ -880,9 +880,9 @@ header img {
     margin: auto 0%;
 }
 .line2, .line-works-2, .line-visual-2 {
-    width: 49px;
+   /* width: 49px;*/
     box-sizing: border-box;
-    margin: auto -20%;
+    /*margin: auto -20%;*/
 }
 
 /*tim page blok 1*/

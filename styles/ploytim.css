@@ -839,7 +839,7 @@ div .blok-photos .title {
     line-height: 20px;
 }
 .blokken {
-  /*  padding: 4%;*/
+  	padding-top: 4%;
     width: 100%;
     /*margin: auto;*/
     display: grid;
@@ -852,7 +852,7 @@ div .blok-photos .title {
     'blokDrie';
 }
 .portfolio {
-    margin: 12% 5% 12% 5%;
+    margin: 180% 5% 12% 5%;
     padding: 4%;
     padding-right: 0;
     display: grid;
@@ -861,7 +861,7 @@ div .blok-photos .title {
     'knop';
 }
 .works{
-	height: 100%;
+	/*height: 100%;*/
 }
 .tekst h1 {
     font-size: 30px;

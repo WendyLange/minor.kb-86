@@ -256,7 +256,7 @@ h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 100px;
+	margin-top: 50px;
 
 }
 
@@ -901,7 +901,7 @@ header p {
     'buttons2 buttons2'
     'buttons1 buttons3';
 }
-.buttons1{
+/*.buttons1{
 	grid-area: buttons1;
 }
 .buttons2{
@@ -918,10 +918,39 @@ header p {
     border-style: none;
     margin: 10px;
     font-size: 20px;
+}*/
+
+
+/*buttons mobiel ik heb nog een class toegevoegd in html*/
+.a {
+	grid-area: terug;
+}
+.b {
+	grid-area: home;
+}
+.c {
+	grid-area: verder;
+}
+.button {
+	display: grid;
+	margin-top: 50px;
+	grid-template-areas: 
+	'home home home'
+	'terug . verder';
+}
+.buttons {
+	width: 144px;
+}
+.home {
+	width: 340px;
+}
+
+/*button bij de deliverables*/
+.button-white {
+	margin-top: 20px;
 }
 }
 
-}
 
 /* On smaller screens, decrease text size */
 /*@media only screen and (max-width: 300px) {

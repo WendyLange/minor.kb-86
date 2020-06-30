@@ -409,6 +409,7 @@ header img {
 .blok-photos img{
 	width: 605px;
 	height: 340px;
+	object-fit: cover;
 }
 .photo1 img{
 	width: 1249px;
@@ -628,7 +629,7 @@ margin: 40px 0px 20px 0px;
 }
 
 .blok-photos div {
-	margin: auto;
+	/*margin: auto;*/
 }
 
 /*end blok 3 ploy*/
@@ -745,6 +746,9 @@ img.behind {
 	width: 336px;
 	height: auto;
 }
+.photo7 .artphoto {
+	width: 336px;
+}
 
 .blok-photos p {
 	width: 336px;
@@ -772,10 +776,10 @@ div .blok-photos .title {
 	flex-wrap: wrap;
 }
 .photo1-blok2 iframe, .photo2-blok2 iframe {
-	width: 360px;
+	width: 340px;
 }
 .photo1-blok2 p, .photo2-blok2 p {
-	width: 360px;
+	width: 340px;
 }
 /*blok 3*/
 .blok-photos-blok3{

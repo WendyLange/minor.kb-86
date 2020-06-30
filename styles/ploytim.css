@@ -9,6 +9,7 @@
 
 }
 header img {
+	object-fit: cover;
 /*	position: absolute;*/
 	width: 100%;
 	height: 1000px;
@@ -669,5 +670,22 @@ header img {
     width: 49px;
     box-sizing: border-box;
     margin: auto -20%;
+}
+
+/*tim page blok 1*/
+.header-blok-tekst h1 {
+	margin-top: 25px;
+    font-size: 30px;
+}
+.header-blok-tekst {
+	top: 90%;
+}
+.header-blok-tekst p {
+    font-size: 20px;
+
+}
+.header-blok-tekst {
+    width: 100%;
+    height: 15%;
 }
 }

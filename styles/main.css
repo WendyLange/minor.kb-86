@@ -271,6 +271,15 @@ h2 {
 
 }
 
+
+.button-white2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+
+}
+
 /*deelnemer details hieronder*/
 .deelnemers {
 	grid-column: 1 / 5;
@@ -626,9 +635,6 @@ header p {
 .ruimte-about, .ruimte-deelnemers {
 	padding: 4%;
 }
-footer {
-	margin-top: 15%;
-}
 
 /*blokken*/
 .blok-dave {
@@ -885,6 +891,34 @@ footer {
 		'footer4' 
 		'footer5';
 	}
+	.button {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    grid-template-areas: 
+    'buttons2 buttons2'
+    'buttons1 buttons3';
+}
+.buttons1{
+	grid-area: buttons1;
+}
+.buttons2{
+	grid-area: buttons2;
+}
+.buttons3{
+	grid-area: buttons3;
+}
+.buttons {
+    width: 100px;
+    height: 50px;
+    background-color: #3561FF;
+    color: #fff;
+    border-style: none;
+    margin: 10px;
+    font-size: 20px;
+}
+}
 
 }
 

@@ -359,7 +359,7 @@ header img {
 .photo7{
 	grid-area: photo7;
 }
-.blok-photos{
+/*.blok-photos{
 
 	display: grid;
 	grid-gap: 50px;
@@ -368,7 +368,7 @@ header img {
 	'photo2	photo3'
 	'photo4	photo5'
 	'photo6	photo7';
-}
+}*/
 
 
 /*flexbox photos Dave vv */

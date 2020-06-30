@@ -222,6 +222,7 @@ header img {
 	font-size: 30px;
 	text-decoration: none;
 	height: 315px;
+	width: 358px;
 }
 .blokken a img {
 	width: 100%;
@@ -238,6 +239,7 @@ header img {
 }
 .blokken a h2, .blokken a p {
 	color: white;
+	padding-top: 10px;
 }
 
 

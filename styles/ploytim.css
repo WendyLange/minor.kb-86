@@ -642,10 +642,13 @@ h1 {
 p {
 	font-size: 14px;
 }
-	.header-box {
+.header-box {
     width: 100%;
     height: 200px;
     top: 539px;
+}
+.header-po {
+	height: auto;
 }
 /*blok 1*/
 .header-blok-tekst {

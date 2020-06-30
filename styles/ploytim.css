@@ -655,6 +655,9 @@ p {
 	display: table-cell;
 	padding-left: inherit;
 }
+.arrow {
+	bottom: 22%;
+}
 /*blok 1*/
 .header-blok-tekst {
 	width: 100%;

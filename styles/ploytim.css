@@ -772,7 +772,16 @@ div .blok-photos .title {
 }
 /*blok 2*/
 .blok2-photos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
+}
+.blok2-photos iframe {
+	width: 360px;
+}
+.blok2-photos p {
+	width: 360px;
 }
 
 

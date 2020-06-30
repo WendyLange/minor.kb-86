@@ -284,6 +284,7 @@ h2 {
 .deelnemers {
 	grid-column: 1 / 5;
 	height: 537px;
+	margin-bottom: 350px;
 }
 
 .persoon-een {

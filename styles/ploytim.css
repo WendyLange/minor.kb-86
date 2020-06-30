@@ -225,7 +225,8 @@ header img {
 }
 .blokken a img {
 	width: 100%;
-	height: auto;
+	height: 201px;
+	object-fit: cover;
 }
 .blokken a h2 {
 	font-size: 30px;

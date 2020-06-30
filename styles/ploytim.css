@@ -650,11 +650,13 @@ p {
 .header-po {
 	width: fit-content;
 	top: 90%;
+	padding-left: 0;
+	padding-right: 0;
 }
 .header-po p {
 	display: table-cell;
-	padding-left: inherit;
 	font-size: 16px;
+	padding: 10px;
 }
 .arrow {
 	bottom: 22%;

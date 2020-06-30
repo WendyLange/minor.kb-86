@@ -651,6 +651,10 @@ p {
 	height: auto;
 	width: fit-content;
 }
+.header-po p {
+	display: table-cell;
+	padding-left: inherit;
+}
 /*blok 1*/
 .header-blok-tekst {
 	width: 100%;

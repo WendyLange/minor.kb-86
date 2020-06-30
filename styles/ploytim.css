@@ -654,6 +654,7 @@ p {
 .header-po p {
 	display: table-cell;
 	padding-left: inherit;
+	font-size: 16px;
 }
 .arrow {
 	bottom: 22%;

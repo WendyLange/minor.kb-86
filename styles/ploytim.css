@@ -868,11 +868,12 @@ div .blok-photos .title {
 }
 .tekst p {
     font-size: 14px;
-    width: 81%;
+    width: 85%;
     padding-top: 5%;
 }
 .portfolio button {
     width: 300px;
+    margin-top: 5%;
 }
 header img {
 	height: 650px;

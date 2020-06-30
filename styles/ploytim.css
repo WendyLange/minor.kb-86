@@ -649,7 +649,7 @@ p {
 }
 .header-po {
 	height: auto;
-	width: auto;
+	width: fit-content;
 }
 /*blok 1*/
 .header-blok-tekst {

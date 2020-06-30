@@ -665,6 +665,7 @@ p {
 }
 .worksploy {
 	height: 320px;
+	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
 }
 /*blok 1*/
 .header-blok-tekst {
@@ -865,10 +866,7 @@ div .blok-photos .title {
     'tekst' 
     'knop';
 }
-.worksploy {
-	/*height: 100%;*/
-	height: 320px;
-}
+
 .tekst h1 {
     font-size: 30px;
 }

@@ -839,10 +839,12 @@ div .blok-photos .title {
     line-height: 20px;
 }
 .blokken {
-    padding: 4%;
+  /*  padding: 4%;*/
     width: 100%;
-    margin: auto;
+    /*margin: auto;*/
     display: grid;
+    justify-content: center;
+    align-items: center;
     grid-gap: 30px;
     grid-template-areas:
     'blokEen' 

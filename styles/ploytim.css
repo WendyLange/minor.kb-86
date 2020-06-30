@@ -585,6 +585,34 @@ margin: 40px 0px 20px 0px;
 	'blok3-10 blok3-11 blok3-12';
 
 }
+/*nieuwe button blauw*/
+.button-blue {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.buttons-blue {
+	width: 340px;
+	height: 50px;
+	background-color: #3562FF;
+	color: white;
+	border-style: none;
+	margin: 20px;
+	font-size: 20px;
+
+}
+/*blok 1 visual regels 361*/
+.blok-photos{
+	justify-content: center;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-areas: 
+	'photo1	photo1'
+	'photo2	photo3'
+	'photo4	photo5'
+	'photo6	photo7';
+}
 /*dit bestaat nog niet buiten @media(600)*/
 .blok-photos-blok3 img{
 	width: 100%;

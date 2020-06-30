@@ -146,9 +146,12 @@ header img {
 	
 }
 
-.ruimte-intro, .ruimte-works, .ruimte-visual  {
+.ruimte-intro, .ruimte-visual  {
 	padding: 4%;
 	padding-top: 8%;
+}
+.ruimte-works {
+	padding-top: 5%;
 }
 
 .works {

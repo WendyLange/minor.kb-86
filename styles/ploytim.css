@@ -603,8 +603,8 @@ margin: 40px 0px 20px 0px;
 }
 /*blok 1 visual regels 361*/
 .blok-photos{
-	justify-content: center;
 	display: grid;
+	justify-content: center;
 	grid-gap: 50px;
 	grid-template-areas: 
 	'photo1	photo1'

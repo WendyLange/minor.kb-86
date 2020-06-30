@@ -120,42 +120,77 @@ iframe{
 .animewrapper {
 	display: grid;
 	margin: 0 auto;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-areas: 
-		'.circle__text .circle__img'
-		'.squid__img .squid__text'
-		'.blob__text .blob__img'
-		'.panda__img .panda__text'
-		'.triangle__text .triangle__img'
-		'.cactus__img .cactus__text';
+		"circle circle blobby blobby"
+		"squid squid panda panda"
+		"triangle triangle cactus cactus";
 }
 
-.circle, .blob, .triangle {
-	grid-column: 1/5;
-	height: 650px;
-	color: #FFFFFF;
-	background-color: #000000;
-	margin: 0px;
+.circle {
+	grid-area: circle;
 }
 
-.circle__img {
-	grid-column: 3/5;
+.blob {
+	grid-area: blobby;
 }
 
 .squid {
-	grid-column: 1/5;
-	height: 650px;
-	background-color: #005E7C;
+	grid-area: squid;
 }
 
-.squid__text, .panda__text, .cactus__text {
+.panda {
+	grid-area: panda;
+}
+
+.triangle {
+	grid-area: triangle;
+}
+
+.cactus {
+	grid-area: cactus;
+}
+
+.squid, .circle, .triangle {
+	grid-column: 1/3;
+	height: 800px;
+}
+
+.blob, .panda, .cactus {
+	grid-column: 3/5;
+	height: 800px;
+}
+
+.squid__card, .circle__card, .blob__card, .panda__card, .triangle__card, .cactus__card {
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 2em;
+	width: 500px;
+	height: 700px;
+	background: #FED9D9;
+	box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+.circle__card, .blob__card, .triangle__card {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 2em;
+}
+
+
+
+
+
+
+/*.squid__text, .panda__text, .cactus__text {
 	position: absolute;
 	left: 50%;
 	grid-column: 3/5;
 	margin: 4em;
-}
+}*/
 
-.circle__text, .blob__text, .triangle__text {
+/*.circle__text, .blob__text, .triangle__text {
 	position: absolute;
 	margin: 4em;
 	left: 2%;
@@ -196,21 +231,21 @@ iframe{
 
 .blob__img {
 	grid-column: 3/5;
-}
+}*/
 
-.panda {
+/*.squid, .circle, .triangle {
 	grid-column: 1/5;
-	height: 650px;
-	background-color: #A6D3DC;
-}
+	height: 700px;
+	background-color: #005E7C;
+}*/
 
-.triangle__img {
+/*.triangle__img {
 	grid-column: 3/5;
 }
+*/
 
 
-
-.cactus {
+/*.cactus {
 	grid-column: 1/5;
 	height: 650px;
-}
+}*/

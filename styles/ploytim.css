@@ -151,7 +151,7 @@ header img {
 }
 
 .works {
-	height: 600px;
+	/*height: 600px;*/
 	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
 	top: 20px;
 }
@@ -662,6 +662,9 @@ p {
 }
 .arrow {
 	bottom: 22%;
+}
+.worksploy {
+	height: 320px;
 }
 /*blok 1*/
 .header-blok-tekst {

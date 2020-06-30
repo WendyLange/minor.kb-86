@@ -774,7 +774,7 @@ div .blok-photos .title {
 	display: grid;
 	justify-content: center;
 	align-items: center;
-	grid-gap: 50px;
+	grid-gap: 10px;
 	grid-template-areas: 
 	'blok3-1 blok3-2' 
 	'blok3-3 blok3-4' 

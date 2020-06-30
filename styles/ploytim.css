@@ -585,21 +585,166 @@ margin: 40px 0px 20px 0px;
 	'blok3-10 blok3-11 blok3-12';
 
 }
+/*dit bestaat nog niet buiten @media(600)*/
 .blok-photos-blok3 img{
 	width: 100%;
 }
 
+.blok-photos p {
+	width: 605px;
+}
+.photo1 p {
+	width: 1249px;
+}
 
+.blok-photos div {
+	margin: auto;
+}
 
 /*end blok 3 ploy*/
 
 @media only screen and (max-width: 600px) {
 /*Ploy page*/
+h1 {
+	font-size: 30px;
+}
+p {
+	font-size: 14px;
+}
 	.header-box {
     width: 100%;
     height: 200px;
     top: 550px;
 }
+/*blok 1*/
+.header-blok-tekst {
+	width: 100%;
+	top: 120%;
+	height: 12%;
+	background-color: #3561FF;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-family: roboto;
+	
+}
+
+/*foto responsive*/
+img.behind {
+	object-fit: cover;
+}
+/* ploy blok 1 intro stuk*/
+.p-intro {
+	padding: 0;
+	padding-top: 5%;
+}
+.line1 {
+	width: 70%;
+}
+.line2 {
+	width: 25%
+}
+.line-intro {
+	margin: 0;
+	width: 45%;
+}
+/*ploy blok 1 works*/
+.p-works {
+	padding: 0;
+	padding-top: 5%;
+}
+.line-works-1 {
+	width: 70%;
+}
+.line-works-2 {
+	width: 25%;
+}
+.line-works {
+	margin: 0;
+	width: 45%;
+}
+/*ploy blok 1 visualisatie*/
+.p-visual {
+	padding: 0;
+	padding-top: 5%;
+	letter-spacing: 0.5px;
+	line-height: 25px;
+}
+.line-visual-1 {
+	width: 70%;
+}
+.line-visual-2 {
+	width: 25%;
+}
+.line-visual {
+	margin: 0;
+	width: 45%;
+}
+.button-blue {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.buttons-blue {
+	width: 340px;
+	height: 50px;
+	background-color: #3562FF;
+	color: white;
+	border-style: none;
+	margin: 20px;
+	font-size: 20px;
+
+}
+.blok-photos {
+
+	margin: 0;
+	margin-left: 0;
+	margin-top: 5%;
+	display: grid;
+	grid-template-areas: 
+	'photo1'
+	'photo2'
+	'photo3'
+	'photo4'
+	'photo5'
+	'photo6'
+	'photo7';
+}
+.blok-photos img {
+	object-fit: cover;
+	width: 336px;
+	height: auto;
+}
+.photo1 img {
+	width: 336px;
+	height: auto;
+}
+
+.blok-photos p {
+	width: 336px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+}
+div .blok-photos .title {
+	font-size: 20px;
+	
+}
+.header-blok-tekst h1 {
+	font-size: 30px;
+}
+.header-blok-tekst p {
+	font-size: 20px;
+}
+/*blok 2*/
+.blok2-photos {
+	flex-wrap: wrap;
+}
+
 
 /*tim page*/
 

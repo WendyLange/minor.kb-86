@@ -2,7 +2,7 @@
 	position: absolute;
 	background-color: rgba(23,23,23,0.3);
 	width: 700px;
-	height: 1000px;
+	height: 911px;
 	top: 89px;
 	right: 0;
 
@@ -635,6 +635,14 @@ margin: 40px 0px 20px 0px;
 }
 
 /*end blok 3 ploy*/
+.worksploy {
+	height: 600px;
+	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
+}
+.workstim {
+	height: 600px;
+	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
+}
 
 @media only screen and (max-width: 600px) {
 /*Ploy page*/
@@ -649,8 +657,8 @@ p {
     width: 100%;
     height: 200px;
     top: 450px;
-    position: absolute; /*menu*/
-    z-index: 1; /*menu*/
+    position: absolute; 
+    z-index: 1; 
 }
 .header-po {
 	width: fit-content;
@@ -666,10 +674,7 @@ p {
 .arrow {
 	bottom: 22%;
 }
-.worksploy {
-	height: 320px;
-	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
-}
+
 /*blok 1*/
 .header-blok-tekst {
 	width: 100%;
@@ -850,10 +855,7 @@ div .blok-photos .title {
 	padding: 35px;
 	margin: 0;
 }
-.workstim {
-	height: 320px;
-	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
-}
+
 
 .blok2-photos img {
 	padding: 30px;
@@ -869,9 +871,7 @@ div .blok-photos .title {
     font-size: 30px;
 }
  
-/*.header-box-tekst p {
-    font-size: 20px;
-}*/
+
 .h1-intro, .h1-works, .h1-visual {
     font-size: 30px;
     text-align: left;
@@ -897,13 +897,16 @@ div .blok-photos .title {
     'blokDrie';
 }
 .portfolio {
-    margin: 265% 5% 12% 5%;
+    margin: 185% 5% 12% 5%;
     padding: 4%;
     padding-right: 0;
     display: grid;
     grid-template-areas: 
     'tekst' 
     'knop';
+}
+.dave {
+	margin: 256% 5% 12% 5%;
 }
 
 .tekst h1 {
@@ -937,9 +940,7 @@ header img {
 	margin-top: 25px;
     font-size: 30px;
 }
-/*.header-blok-tekst {
-	top: 94%;
-}*/
+
 .header-blok-tekst p {
     font-size: 20px;
 
@@ -964,8 +965,4 @@ header img {
 }
 
 
-/*.header-blok-tekst {
-    width: 100%;
-    height: 15%;
-}*/
 }

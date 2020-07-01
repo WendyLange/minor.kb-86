@@ -2,7 +2,7 @@
 	position: absolute;
 	background-color: rgba(23,23,23,0.3);
 	width: 700px;
-	height: 911px;
+	height: 1000px;
 	top: 89px;
 	right: 0;
 
@@ -49,14 +49,6 @@ header img {
 	text-align: center;
 	font-family: roboto;
 	
-}
-.worksploy {
-	height: 600px;
-	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
-}
-.workstim {
-	height: 600px;
-	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
 }
 .header-box-tekst h1 {
 	font-family: roboto;
@@ -427,10 +419,10 @@ header img {
 .blok-photos-tim{
 	margin: auto;
 	display: flex;
-	grid-gap: 50px;
+	padding: 10px;
 	align-items: center;
 	justify-content: center;
-	grid-template-areas: 'photo1-tim photo2-tim';
+	
 }
 
 iframe{
@@ -447,11 +439,11 @@ margin: 40px 0px 20px 0px;
 }
 
 .photo1-tim{
-
+	padding: 10px;
 	grid-area: photo1-tim;
 }
 .photo2-tim{
-
+	padding: 10px;
 	grid-area: photo2-tim;
 }
 

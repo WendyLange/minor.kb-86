@@ -26,17 +26,17 @@
 /*main image on page Wendy*/
 .starteblog1 {
 	background: url(../images/wendy-blog1-header.png) no-repeat center center;
-/*	clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 0% 82%);*/
-	background-size: 100%;
+	/*background-size: 100%;*/
+	object-fit: cover;
 	margin: 0;
 	padding: 0;
 	height: 700px;
 }
 
 .starteblog2 {
-	background: url(../images/wendy-blok2-header.png) no-repeat center center;
-/*	clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 0% 82%);*/
-	background-size: 100%;
+	background: url(../images/wendy-blok2-header-vergroot.png) no-repeat center center;
+/*	background-size: 100%;*/
+	object-fit: cover;
 	margin: 0;
 	padding: 0;
 	height: 700px;
@@ -44,8 +44,8 @@
 
 .starteblog3 {
 	background: url(../images/wendy-blok3-panda-desktop-animated.png) no-repeat center center;
-/*	clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 0% 82%);*/
 	background-size: 100%;
+	object-fit: cover;
 	margin: 0;
 	padding: 0;
 	height: 700px;
@@ -115,6 +115,11 @@ iframe{
 	height: 315px;
 }
 
+* {
+	-webkit-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
 
 /*Wrapper for blog3 of Wendy*/
 .animewrapper {
@@ -178,90 +183,261 @@ iframe{
 	border-radius: 15px;
 }
 
-.circle__card, .blob__card, .triangle__card {
-	background-color: #000000;
-	color: #FFFFFF;
-	padding: 2em;
+
+/*Trial for the new card*/
+
+h5 {
+	padding-top: 2em;
+  	margin:0px;
+  	font-size:1.4em;
+  	font-weight:700;
 }
 
-.circle__text {
-/*	margin-left: auto;
-  	margin-right: auto;*/
-/*	width: 500px;
-	height: 650px;*/
-/*	left: 131px;
-	top: 176px;*/
-	background: #DFEAED;
-	border-radius: 15px;
-	bottom: 0px;
+.property-card {
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 2em;
+  	height:29em;
+  	width:25em;
+  	display:-webkit-box;
+  	display:-ms-flexbox;
+  	display:flex;
+  	-webkit-box-orient:vertical;
+  	-webkit-box-direction:normal;
+  	-ms-flex-direction:column;
+  	flex-direction:column;
+  	position:relative;
+  	-webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  	-o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  	transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  	border-radius:16px;
+  	overflow:hidden;
+  	-webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  	box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+
+/* Top Half of card, image. */
+
+/*Details van circle*/
+.property-image-1 {
+  height:6em;
+  width:25em;
+  padding:1em 2em;
+  position:absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../images/wendy-blog3-circle-animated.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/*Details van blob*/
+.property-image-2 {
+  height:6em;
+  width:25em;
+  padding:1em 2em;
+  background-color: #000000;
+  position:absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../images/wendy-blok3-blob-animated.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/*Details van squid*/
+.property-image-0 {
+  height:6em;
+  width:25em;
+  padding:1em 2em;
+  position:absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../images/wendy-blog3-squid-animated.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/*Details van Panda*/
+.property-image-3 {
+  height:6em;
+  width:25em;
+  padding:1em 2em;
+  background-color: #000000;
+  position:absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../images/wendy-blok3-panda-animated.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/*Details van Triangle*/
+.property-image-4 {
+  height:6em;
+  width:25em;
+  padding:1em 2em;
+  background-color: #000000;
+  position:absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../images/wendy-blok3-triangle-animated.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/*Details van Cactus*/
+.property-image-5 {
+  height:6em;
+  width:25em;
+  padding:1em 2em;
+  background-color: #000000;
+  position:absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../images/wendy-blok3-cactus-animated.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+/* Bottom Card Section */
+
+.property-description
+{
+  /*background-color: #FAFAFC;*/
+  background-color: #F5F5F5;
+  height:24em;
+  width:25em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description {
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image-0, .property-image-1, .property-image-2, .property-image-3, .property-image-4, .property-image-5 {
+  height:24em;
 }
 
 
 
+@media only screen and (max-width: 600px) {
+	.header-wen {
+		width: fit-content;
+		top: 90%;
+		padding-left: 0;
+		padding-right: 0;
+	}
 
-/*.squid__text, .panda__text, .cactus__text {
-	position: absolute;
-	left: 50%;
-	grid-column: 3/5;
-	margin: 4em;
-}*/
+	.header-wen p {
+		display: table-cell;
+		font-size: 16px;
+		padding: 10px;
+	}
 
-/*.circle__text, .blob__text, .triangle__text {
-	position: absolute;
-	margin: 4em;
-	left: 2%;
+ 	.introduction {
+ 		margin-bottom: 2em;
+ 	}
+
+	.workswendy, .starteblog1, .starteblog2, .starteblog3{
+		height: 650px;
+	}
+
+
+	.starteblog3 {
+		background: url('../images/wendy-blok3-panda-animated.png') no-repeat center center;
+	}
+
+	.starteblog2__text {
+		padding-left: 2em;
+		width: 100%;
+		margin-top: 9em;
+		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	.animewrapper {
+		display: grid;
+		margin: 0 auto;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: 
+			"circle circle"
+			"blobby blobby"
+			"squid squid"
+			"panda panda"
+			"triangle triangle"
+			"cactus cactus";
+		margin-bottom: 5em;	
+		grid-row-gap: 0;
+	}
+
+	.circle, .blob, .squid, .panda, .triangle, .cactus {
+		grid-column: 1/3;
+	}
+
+	h5 {
+		padding-top: 0.5em;
+	}
+
+	.property-card {
+	  	height:21em;
+	  	width:16em;
+	}
+
+	.property-image-0, .property-image-1, .property-image-2, .property-image-3, .property-image-4, .property-image-5 {
+		  height:15em;
+		  width:16em;
+	}
+
+	.property-description {
+	  height:16em;
+	  width:16em;
+	}
+
+	.property-card:hover .property-image-0, .property-image-1, .property-image-2, .property-image-3, .property-image-4, .property-image-5 {
+  		height:16em;
+	}
 }
 
-.circle__img, .blob__img, .triangle__img {
-	position: absolute;
-	left: 50%;
-	margin: 0px; 
+@media only screen and (max-width: 900px) {
+	.animewrapper {
+		display: grid;
+		margin: 0 auto;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-areas: 
+			"circle circle blobby blobby"
+			"squid squid panda panda"
+			"triangle triangle cactus cactus";
+		grid-row-gap: 0;
+		grid-column-gap: 1em;
+	}
+
+	.circle, .squid, .triangle {
+		grid-column: 1/3;
+	}
+	.blob, .panda, .cactus {
+		grid-column: 3/5;
+	}
 }
-
-.circle__img img {
-	width: 85%;
-}
-
-.blob__img img {
-	width: 85%;
-}
-
-.panda__img img {
-	width: 35%;
-}
-
-.triangle__img img {
-	width: 85%;
-}
-
-.cactus__img img {
-	width: 35%;
-}
-
-.squid__img {
-	width: 100%;
-	position: flex;
-	margin-top: 0px; 
-}
-
-
-.blob__img {
-	grid-column: 3/5;
-}*/
-
-/*.squid, .circle, .triangle {
-	grid-column: 1/5;
-	height: 700px;
-	background-color: #005E7C;
-}*/
-
-/*.triangle__img {
-	grid-column: 3/5;
-}
-*/
-
-
-/*.cactus {
-	grid-column: 1/5;
-	height: 650px;
-}*/

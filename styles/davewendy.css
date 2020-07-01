@@ -420,3 +420,25 @@ h5 {
   		height:16em;
 	}
 }
+
+@media only screen and (max-width: 900px) {
+		.animewrapper {
+		display: grid;
+		margin: 0 auto;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-areas: 
+			"circle circle blobby blobby"
+			"squid squid panda panda"
+			"triangle triangle cactus cactus";
+		grid-row-gap: 0;
+		grid-column-gap: 1em;
+	}
+
+	.circle, .squid, .triangle {
+		grid-column: 1/3;
+	}
+	.blob, .panda, .cactus {
+		grid-column: 3/5;
+	}
+
+}

@@ -124,7 +124,8 @@ iframe{
 	grid-template-areas: 
 		"circle circle blobby blobby squid squid"
 		"panda panda triangle triangle cactus cactus";
-	margin-bottom: 5em;
+	margin-bottom: 5em;	
+	grid-row-gap: 2em;
 }
 
 .circle {

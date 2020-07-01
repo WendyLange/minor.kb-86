@@ -362,7 +362,12 @@ h5 {
  		margin-bottom: 2em;
  	}
 
-	.workswendy {
+	.workswendy, .starteblog1, .starteblog2, .starteblog3{
 		height: 650px;
+	}
+
+	.starteblog3 {
+		background: url('../images/wendy-blok3-panda-animated.png') no-repeat center center;
+	
 	}
 }

@@ -197,24 +197,23 @@ h5 {
 	margin-left: auto;
   	margin-right: auto;
   	margin-top: 2em;
-
-  height:29em;
-  width:25em;
-  display:-webkit-box;
-  display:-ms-flexbox;
-  display:flex;
-  -webkit-box-orient:vertical;
-  -webkit-box-direction:normal;
-  -ms-flex-direction:column;
-  flex-direction:column;
-  position:relative;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  border-radius:16px;
-  overflow:hidden;
-  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
-  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  	height:29em;
+  	width:25em;
+  	display:-webkit-box;
+  	display:-ms-flexbox;
+  	display:flex;
+  	-webkit-box-orient:vertical;
+  	-webkit-box-direction:normal;
+  	-ms-flex-direction:column;
+  	flex-direction:column;
+  	position:relative;
+  	-webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  	-o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  	transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  	border-radius:16px;
+  	overflow:hidden;
+  	-webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  	box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
 }
 
 /* Top Half of card, image. */
@@ -251,7 +250,7 @@ h5 {
 }
 
 /*Details van squid*/
-.property-image {
+.property-image-0 {
   height:6em;
   width:25em;
   padding:1em 2em;
@@ -334,13 +333,11 @@ h5 {
 
 /* Property Cards Hover States */
 
-.property-card:hover .property-description
-{
+.property-card:hover .property-description {
   height:0em;
   padding:0px 1em;
 }
-.property-card:hover .property-image, .property-image-1, .property-image-2, .property-image-3, .property-image-4, .property-image-5
-{
+.property-card:hover .property-image-0, .property-image-1, .property-image-2, .property-image-3, .property-image-4, .property-image-5 {
   height:24em;
 }
 
@@ -400,24 +397,26 @@ h5 {
 		grid-column: 1/3;
 	}
 
-
-
 	h5 {
 		padding-top: 0.5em;
 	}
 
 	.property-card {
-	  	height:20em;
+	  	height:21em;
 	  	width:16em;
 	}
 
-	.property-image, .property-image-1, .property-image-2, .property-image-3, .property-image-4, .property-image-5 {
+	.property-image-0, .property-image-1, .property-image-2, .property-image-3, .property-image-4, .property-image-5 {
 		  height:15em;
 		  width:16em;
 	}
 
 	.property-description {
-	  height:15em;
+	  height:16em;
 	  width:16em;
+	}
+
+	.property-card:hover .property-image-0, .property-image-1, .property-image-2, .property-image-3, .property-image-4, .property-image-5 {
+  		height:16em;
 	}
 }

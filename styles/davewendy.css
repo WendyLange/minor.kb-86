@@ -343,3 +343,21 @@ h5 {
 {
   height:24em;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+	.header-wen {
+	width: fit-content;
+	top: 90%;
+	padding-left: 0;
+	padding-right: 0;
+}
+	.header-wen p {
+	display: table-cell;
+	font-size: 16px;
+	padding: 10px;
+}
+
+
+}

@@ -947,6 +947,20 @@ header img {
 .ImageDave{
 	max-width: 340px;
 }
+	
+.imgdavepf{
+	width: 75px;
+	height: 75px;
+	border: white;
+	border-width: 1px;
+    border-style: solid;
+    border-radius: 100px;
+}
+
+.worksdave {
+    height: 531px;
+    background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
+}
 
 
 /*.header-blok-tekst {

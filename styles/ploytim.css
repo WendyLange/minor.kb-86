@@ -632,6 +632,14 @@ margin: 40px 0px 20px 0px;
 }
 
 /*end blok 3 ploy*/
+.worksploy {
+	height: 600px;
+	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
+}
+.workstim {
+	height: 600px;
+	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
+}
 
 @media only screen and (max-width: 600px) {
 /*Ploy page*/
@@ -663,10 +671,7 @@ p {
 .arrow {
 	bottom: 22%;
 }
-.worksploy {
-	height: 600px;
-	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
-}
+
 /*blok 1*/
 .header-blok-tekst {
 	width: 100%;
@@ -847,10 +852,7 @@ div .blok-photos .title {
 	padding: 35px;
 	margin: 0;
 }
-.workstim {
-	height: 600px;
-	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
-}
+
 
 .blok2-photos img {
 	padding: 30px;

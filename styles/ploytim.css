@@ -947,6 +947,15 @@ header img {
 .ImageDave{
 	max-width: 340px;
 }
+	
+.imgdavepf{
+	width: 75px;
+	height: 75px;
+	border: white;
+	border-width: 1px;
+    border-style: solid;
+    border-radius: 100px;
+}
 
 .worksdave {
     height: 531px;

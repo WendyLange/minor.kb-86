@@ -183,25 +183,6 @@ iframe{
 	border-radius: 15px;
 }
 
-.circle__card, .blob__card, .triangle__card {
-	background-color: #000000;
-	color: #FFFFFF;
-	padding: 2em;
-}
-
-.circle__text {
-/*	margin-left: auto;
-  	margin-right: auto;*/
-/*	width: 500px;
-	height: 650px;*/
-/*	left: 131px;
-	top: 176px;*/
-	background: #DFEAED;
-	border-radius: 15px;
-	bottom: 0px;
-}
-
-
 
 /*Trial for the new card*/
 
@@ -284,11 +265,61 @@ h5 {
   background-repeat:no-repeat;
 }
 
+/*Details van Panda*/
+.property-image-3 {
+  height:6em;
+  width:25em;
+  padding:1em 2em;
+  background-color: #000000;
+  position:absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../images/wendy-blok3-panda-animated.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/*Details van Triangle*/
+.property-image-4 {
+  height:6em;
+  width:25em;
+  padding:1em 2em;
+  background-color: #000000;
+  position:absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../images/wendy-blok3-triangle-animated.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/*Details van Cactus*/
+.property-image-5 {
+  height:6em;
+  width:25em;
+  padding:1em 2em;
+  background-color: #000000;
+  position:absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../images/wendy-blok3-cactus-animated.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
 /* Bottom Card Section */
 
 .property-description
 {
-  background-color: #FAFAFC;
+  /*background-color: #FAFAFC;*/
+  background-color: #F5F5F5;
   height:24em;
   width:25em;
   position:absolute;
@@ -308,7 +339,7 @@ h5 {
   height:0em;
   padding:0px 1em;
 }
-.property-card:hover .property-image, .property-image-1, .property-image-2
+.property-card:hover .property-image, .property-image-1, .property-image-2, .property-image-3, .property-image-4, .property-image-5
 {
   height:24em;
 }

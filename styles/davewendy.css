@@ -178,7 +178,17 @@ iframe{
 	padding: 2em;
 }
 
-
+.circle__text {
+/*	margin-left: auto;
+  	margin-right: auto;*/
+	width: 500px;
+	height: 650px;
+/*	left: 131px;
+	top: 176px;*/
+	background: #DFEAED;
+	border-radius: 15px;
+	bottom: 0px;
+}
 
 
 

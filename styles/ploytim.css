@@ -654,8 +654,8 @@ p {
     width: 100%;
     height: 200px;
     top: 450px;
-    position: absolute; /*menu*/
-    z-index: 1; /*menu*/
+    position: absolute; 
+    z-index: 1; 
 }
 .header-po {
 	width: fit-content;
@@ -868,9 +868,7 @@ div .blok-photos .title {
     font-size: 30px;
 }
  
-/*.header-box-tekst p {
-    font-size: 20px;
-}*/
+
 .h1-intro, .h1-works, .h1-visual {
     font-size: 30px;
     text-align: left;
@@ -904,6 +902,9 @@ div .blok-photos .title {
     'tekst' 
     'knop';
 }
+.dave {
+	margin: 185% 5% 12% 5%;
+}
 
 .tekst h1 {
     font-size: 30px;
@@ -936,9 +937,7 @@ header img {
 	margin-top: 25px;
     font-size: 30px;
 }
-/*.header-blok-tekst {
-	top: 94%;
-}*/
+
 .header-blok-tekst p {
     font-size: 20px;
 
@@ -963,8 +962,4 @@ header img {
 }
 
 
-/*.header-blok-tekst {
-    width: 100%;
-    height: 15%;
-}*/
 }

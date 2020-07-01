@@ -26,17 +26,17 @@
 /*main image on page Wendy*/
 .starteblog1 {
 	background: url(../images/wendy-blog1-header.png) no-repeat center center;
-/*	clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 0% 82%);*/
-	background-size: 100%;
+	/*background-size: 100%;*/
+	object-fit: cover;
 	margin: 0;
 	padding: 0;
 	height: 700px;
 }
 
 .starteblog2 {
-	background: url(../images/wendy-blok2-header.png) no-repeat center center;
-/*	clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 0% 82%);*/
-	background-size: 100%;
+	background: url(../images/wendy-blok2-header-vergroot.png) no-repeat center center;
+/*	background-size: 100%;*/
+	object-fit: cover;
 	margin: 0;
 	padding: 0;
 	height: 700px;
@@ -44,8 +44,8 @@
 
 .starteblog3 {
 	background: url(../images/wendy-blok3-panda-desktop-animated.png) no-repeat center center;
-/*	clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 0% 82%);*/
 	background-size: 100%;
+	object-fit: cover;
 	margin: 0;
 	padding: 0;
 	height: 700px;
@@ -358,6 +358,11 @@ h5 {
 	font-size: 16px;
 	padding: 10px;
 }
+ 	.introduction {
+ 		margin-bottom: 2em;
+ 	}
 
-
+	.workswendy {
+		height: 650px;
+	}
 }

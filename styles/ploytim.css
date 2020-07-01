@@ -446,10 +446,7 @@ margin: 40px 0px 20px 0px;
 }
 .blok-photos-tim{
 	grid-gap: 45px;
-	width: 1150px;
-	display: grid;
-	grid-template-areas: 
-	'photo1-tim photo2-tim';
+	display: flex;
 }
 
 .photo1-blok2{
@@ -825,6 +822,20 @@ div .blok-photos .title {
 
 
 /*tim page*/
+
+.filmpje{
+    width: 340px;
+    height: 255px;
+}
+
+.blok-photos-tim{
+	flex-wrap: wrap;
+	margin: auto;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+}
 .header-tim {
 	width: fit-content;
 	top: 90%;
@@ -840,6 +851,12 @@ div .blok-photos .title {
 .workstim {
 	height: 320px;
 	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
+}
+
+.blok2-photos img {
+	padding: 30px;
+    width: 360px;
+    height: auto;
 }
 
 .header-box-tekst .img {

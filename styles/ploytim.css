@@ -651,6 +651,7 @@ margin: 40px 0px 20px 0px;
 	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
 }
 
+
 @media only screen and (max-width: 600px) {
 /*Ploy page*/
 h1 {
@@ -688,6 +689,10 @@ p {
 	top: 85%;
 	height: 15%;
 	
+}
+
+.workswendy1 {
+	height: 500px;
 }
 
 /*foto responsive*/

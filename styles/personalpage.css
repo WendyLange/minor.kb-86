@@ -145,6 +145,10 @@ h2 {
 			"leadervid leadervid";
 	}
 
+	.leadervid {
+		padding: 0;
+	}
+
 	.moview {
 		    width: 340px;
 		    height: 255px;

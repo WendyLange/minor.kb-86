@@ -537,6 +537,10 @@ background-image {
 .frontpage a img {
 	width: 100%;
 	height: auto;
+	transition: width 2s, height 2s, transform 2s;
+}
+.frontpage a img:hover {
+	transform: rotate(360deg);
 }
 
 header a:hover .image-dave, header a:hover .image-ploy, header a:hover .image-tim, header a:hover .image-wendy {
@@ -669,9 +673,13 @@ header p {
 	text-decoration: none;
 	margin: auto;
 }
-.blok-profiles a img {
+.blok-profiles .profiles img {
 	width: 100%;
 	height: auto;
+	transition: width 2s, height 2s, transform 2s;
+}
+.blok-profiles .profiles img:hover {
+    transform: rotate(360deg);
 }
 
 .blok-profiles a h2 {

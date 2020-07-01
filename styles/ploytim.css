@@ -20,6 +20,7 @@ header img {
 .header-box-tekst .img {
 	width: 150px;
 	height: 150px;
+	z-index: 999;
 }
 
 .imgdavepf{
@@ -31,10 +32,11 @@ header img {
     border-radius: 100px;
 }
 
-
-.header-box-tekst .img {
-	width: 150px;
-	height: 150px;
+.header-box-tekst .img:hover {
+	background-position: unset;
+	border-radius: 80px;
+    background: linear-gradient(to bottom, 
+     red 20%, orange 20% 40%, yellow 40% 60%, green 60% 80%, blue 80%);
 }
 
 

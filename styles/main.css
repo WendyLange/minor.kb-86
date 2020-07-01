@@ -375,32 +375,6 @@ background-image {
 }
 
 
-/*Footer details*/
-/*.footer {
-	background-color: #3562FF;
-	position: relative;
-	height: 100px;
-	clear: both;
-
-}
-.footer p {
-	padding: 20px 40px;
-
-}
-
-.footer a {
-	padding-left: 30px;
-	text-decoration: none;
-}
-
-.footer a:hover {
-	text-decoration: underline;
-
-}*/
-
-
-/*footer*/
-
 .footer{
 		text-decoration: none;
 		color: white;
@@ -455,6 +429,10 @@ background-image {
 .footer5{
 	width: 250px;
 	grid-area: footer5;
+}
+.flag{
+	text-decoration: none;
+	list-style: none;
 }
 
 .site-footer

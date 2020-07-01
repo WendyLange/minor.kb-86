@@ -115,6 +115,11 @@ iframe{
 	height: 315px;
 }
 
+* {
+	-webkit-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
 
 /*Wrapper for blog3 of Wendy*/
 .animewrapper {
@@ -198,70 +203,107 @@ iframe{
 
 
 
+/*Trial for the new card*/
 
-/*.squid__text, .panda__text, .cactus__text {
-	position: absolute;
-	left: 50%;
-	grid-column: 3/5;
-	margin: 4em;
-}*/
-
-/*.circle__text, .blob__text, .triangle__text {
-	position: absolute;
-	margin: 4em;
-	left: 2%;
+h5 {
+	padding-top: 2em;
+  	margin:0px;
+  	font-size:1.4em;
+  	font-weight:700;
 }
 
-.circle__img, .blob__img, .triangle__img {
-	position: absolute;
-	left: 50%;
-	margin: 0px; 
+.property-card {
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 2em;
+
+  height:29em;
+  width:25em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+.property-image
+{
+  height:6em;
+  width:25em;
+  padding:1em 2em;
+  position:absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../images/wendy-blog3-squid-animated.png');
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 
-.circle__img img {
-	width: 85%;
+/* Bottom Card Section */
+
+.property-description
+{
+  background-color: #FAFAFC;
+  height:24em;
+  width:25em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
 }
 
-.blob__img img {
-	width: 85%;
+/* Social Icons */
+
+.property-social-icons
+{
+  width:1em;
+  height:1em;
+  background-color:black;
+  position:absolute;
+  bottom:1em;
+  left:1em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.panda__img img {
-	width: 35%;
+/* Property Cards Hover States */
+
+.property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image
+{
+  height:24em;
 }
 
-.triangle__img img {
-	width: 85%;
+.property-card:hover .property-social-icons
+{
+  background-color:white;
 }
 
-.cactus__img img {
-	width: 35%;
+.property-card:hover .property-social-icons:hover
+{
+  background-color:blue;
+  cursor:pointer;
 }
-
-.squid__img {
-	width: 100%;
-	position: flex;
-	margin-top: 0px; 
-}
-
-
-.blob__img {
-	grid-column: 3/5;
-}*/
-
-/*.squid, .circle, .triangle {
-	grid-column: 1/5;
-	height: 700px;
-	background-color: #005E7C;
-}*/
-
-/*.triangle__img {
-	grid-column: 3/5;
-}
-*/
-
-
-/*.cactus {
-	grid-column: 1/5;
-	height: 650px;
-}*/

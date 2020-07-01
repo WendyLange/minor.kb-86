@@ -828,7 +828,7 @@ div .blok-photos .title {
     height: 255px;
 }
 
-.blok-photos-tim{
+.blok-photos-tim, .blok-photos-blok3-tim{
 	flex-wrap: wrap;
 	margin: auto;
 	display: flex;

@@ -302,7 +302,7 @@ h2 {
 
 #myBtn:hover {
   background-color: black;
-  background-image: linear-gradient(to top, black , white); 
+  background-image: linear-gradient(to top, black , black); 
 }
 
 /*deelnemer details hieronder*/

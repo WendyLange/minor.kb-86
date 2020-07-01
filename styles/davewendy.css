@@ -422,7 +422,7 @@ h5 {
 }
 
 @media only screen and (max-width: 900px) {
-		.animewrapper {
+	.animewrapper {
 		display: grid;
 		margin: 0 auto;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -440,5 +440,4 @@ h5 {
 	.blob, .panda, .cactus {
 		grid-column: 3/5;
 	}
-
 }

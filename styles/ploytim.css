@@ -418,6 +418,11 @@ header img {
 
 .blok-photos-tim{
 	margin: auto;
+	display: flex;
+	grid-gap: 50px;
+	align-items: center;
+	justify-content: center;
+	grid-template-areas: 'photo1-tim photo2-tim';
 }
 
 iframe{
@@ -440,13 +445,6 @@ margin: 40px 0px 20px 0px;
 .photo2-tim{
 
 	grid-area: photo2-tim;
-}
-.blok-photos-tim{
-	grid-gap: 45px;
-	width: 1150px;
-	display: grid;
-	grid-template-areas: 
-	'photo1-tim photo2-tim';
 }
 
 .photo1-blok2{
@@ -789,7 +787,7 @@ div .blok-photos .title {
 .header-blok-tekst p {
 	font-size: 20px;
 }
-/*blok 2*/
+/*blok 2 ploy*/
 .blok2-photos {
 	display: flex;
 	align-items: center;
@@ -800,6 +798,19 @@ div .blok-photos .title {
 	width: 340px;
 }
 .photo1-blok2 p, .photo2-blok2 p {
+	width: 340px;
+}
+/*blok 1 tim*/
+.blok-photos-tim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.photo1-tim iframe, .photo2-tim iframe {
+	width: 340px;
+}
+.photo1-tim p, .photo2-tim p {
 	width: 340px;
 }
 /*blok 3*/

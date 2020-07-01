@@ -120,11 +120,11 @@ iframe{
 .animewrapper {
 	display: grid;
 	margin: 0 auto;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-areas: 
-		"circle circle blobby blobby"
-		"squid squid panda panda"
-		"triangle triangle cactus cactus";
+		"circle circle blobby blobby squid squid"
+		"panda panda triangle triangle cactus cactus";
+	margin-bottom: 5em;
 }
 
 .circle {
@@ -151,22 +151,27 @@ iframe{
 	grid-area: cactus;
 }
 
-.squid, .circle, .triangle {
+..circle, .panda {
 	grid-column: 1/3;
-	height: 800px;
+	height: 600px;
 }
 
-.blob, .panda, .cactus {
+.blob, .triangle {
 	grid-column: 3/5;
-	height: 800px;
+	height: 600px;
+}
+
+.squid .cactus {
+	grid-column: 5/7;
+	height: 600px;
 }
 
 .squid__card, .circle__card, .blob__card, .panda__card, .triangle__card, .cactus__card {
 	margin-left: auto;
   	margin-right: auto;
   	margin-top: 2em;
-	width: 500px;
-	height: 700px;
+	width: 400px;
+	height: 600px;
 	background: #FED9D9;
 	box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 15px;
@@ -181,8 +186,8 @@ iframe{
 .circle__text {
 /*	margin-left: auto;
   	margin-right: auto;*/
-	width: 500px;
-	height: 650px;
+/*	width: 500px;
+	height: 650px;*/
 /*	left: 131px;
 	top: 176px;*/
 	background: #DFEAED;

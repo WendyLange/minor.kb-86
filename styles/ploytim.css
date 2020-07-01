@@ -215,6 +215,11 @@ header img {
 	grid-template-areas: 
 	'blokEen blokTwee blokDrie';
 }
+.blok-1:hover, .blok-2:hover, .blok-3:hover{
+
+	transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
 .blokken a {
 	background-color: #3562FF;
 	text-align: center;

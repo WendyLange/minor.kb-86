@@ -302,7 +302,7 @@ h2 {
 
 #myBtn:hover {
   background-color: black;
-  background-image: linear-gradient(to top, black , white); 
+  background-image: linear-gradient(to top, black , black); 
 }
 
 /*deelnemer details hieronder*/
@@ -569,7 +569,7 @@ header a:hover .image-dave, header a:hover .image-ploy, header a:hover .image-ti
 }*/
 .frontpage a {
 	 background: rgba(23, 23, 23, 0.7);
-	 height: 984px;
+	
 
 }
 .hover-text-dave, .hover-text-ploy, .hover-text-tim, .hover-text-wendy  {

@@ -470,13 +470,11 @@ margin: 40px 0px 20px 0px;
 }
 /*blok 2 photos*/
 .blok2-photos{
+	flex-direction: column;
 	margin: auto;
-/*	grid-gap: 50px;*/
 	display: flex;
 	align-items: center;
   	justify-content: center;
-	/*grid-template-areas: 
-	'photo1-blok2 photo2-blok2';*/
 
 }
 .photo1-blok2{

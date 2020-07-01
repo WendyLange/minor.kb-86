@@ -2,8 +2,10 @@
   overflow: hidden;
   background-color: #3562FF;
 /*  float: right;*/
+  position: absolute; /*menu*/
+  z-index: 2; /*menu*/
+  width: 100%; /*menu*/
 }
-
 
 .navbar a {
 

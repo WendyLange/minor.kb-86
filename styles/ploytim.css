@@ -2,7 +2,7 @@
 	position: absolute;
 	background-color: rgba(23,23,23,0.3);
 	width: 700px;
-	height: 1000px;
+	height: 911px;
 	top: 89px;
 	right: 0;
 
@@ -664,7 +664,7 @@ p {
 	bottom: 22%;
 }
 .worksploy {
-	height: 320px;
+	height: 600px;
 	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
 }
 /*blok 1*/
@@ -848,7 +848,7 @@ div .blok-photos .title {
 	margin: 0;
 }
 .workstim {
-	height: 320px;
+	height: 600px;
 	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
 }
 

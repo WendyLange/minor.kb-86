@@ -235,12 +235,42 @@ h5 {
   -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
   box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
 }
-/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
 
 /* Top Half of card, image. */
 
-.property-image
-{
+/*Details van circle*/
+.property-image-1 {
+  height:6em;
+  width:25em;
+  padding:1em 2em;
+  position:absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../images/wendy-blog3-circle-animated.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/*Details van blob*/
+.property-image-2 {
+  height:6em;
+  width:25em;
+  padding:1em 2em;
+  background-color: #000000;
+  position:absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../images/wendy-blok3-blob-animated.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/*Details van squid*/
+.property-image {
   height:6em;
   width:25em;
   padding:1em 2em;
@@ -270,20 +300,6 @@ h5 {
   text-align:center;
 }
 
-/* Social Icons */
-
-.property-social-icons
-{
-  width:1em;
-  height:1em;
-  background-color:black;
-  position:absolute;
-  bottom:1em;
-  left:1em;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
 
 /* Property Cards Hover States */
 
@@ -292,18 +308,7 @@ h5 {
   height:0em;
   padding:0px 1em;
 }
-.property-card:hover .property-image
+.property-card:hover .property-image, .property-image-1, .property-image-2
 {
   height:24em;
-}
-
-.property-card:hover .property-social-icons
-{
-  background-color:white;
-}
-
-.property-card:hover .property-social-icons:hover
-{
-  background-color:blue;
-  cursor:pointer;
 }

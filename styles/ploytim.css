@@ -20,6 +20,7 @@ header img {
 .header-box-tekst .img {
 	width: 150px;
 	height: 150px;
+	z-index: 999;
 }
 
 .imgdavepf{
@@ -31,10 +32,11 @@ header img {
     border-radius: 100px;
 }
 
-
-.header-box-tekst .img {
-	width: 150px;
-	height: 150px;
+.header-box-tekst .img:hover {
+	background-position: unset;
+	border-radius: 80px;
+    background: linear-gradient(to bottom, 
+     red 20%, orange 20% 40%, yellow 40% 60%, green 60% 80%, blue 80%);
 }
 
 
@@ -214,6 +216,11 @@ header img {
 	grid-gap: 50px;
 	grid-template-areas: 
 	'blokEen blokTwee blokDrie';
+}
+.blok-1:hover, .blok-2:hover, .blok-3:hover{
+
+	transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
 }
 .blokken a {
 	background-color: #3562FF;

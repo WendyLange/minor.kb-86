@@ -619,6 +619,12 @@ margin: 40px 0px 20px 0px;
 	font-size: 20px;
 
 }
+.buttons-blue a:hover {
+	color: #3561FF;
+	background-color: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+}
 /*blok 1 visual regels 361*/
 .blok-photos{
 	display: grid;

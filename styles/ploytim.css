@@ -473,10 +473,11 @@ margin: 40px 0px 20px 0px;
 	width: 560px;
 }
 /*blok 1 ploy nieuw*/
-.blok2-photos{
+.blok2-photos-po{
 	padding: 50px;
 	display: flex;
-	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 	
 }
 /*blok 2 photos*/

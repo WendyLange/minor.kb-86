@@ -344,6 +344,12 @@ h5 {
 
 
 @media only screen and (max-width: 600px) {
+	.wendy {
+	margin: 270% 5% 12% 5%;
+	}
+	.dave {
+	margin: 250% 5% 12% 5%;
+	}
 	.header-wen {
 		width: fit-content;
 		top: 90%;

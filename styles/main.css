@@ -293,16 +293,18 @@ h2 {
   outline: none; /* Remove outline */
   background: linear-gradient(to bottom, 
      red 20%, orange 20% 40%, yellow 40% 60%, green 60% 80%, blue 80%);
-  color: white; /* Text color */
+  color: black; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 50px;
   font-size: 30px; /* Increase font size */
+  font-weight: 300;
 }
 
 #myBtn:hover {
   background-color: black;
   background-image: linear-gradient(to top, black , black); 
+  color: white;
 }
 
 /*deelnemer details hieronder*/

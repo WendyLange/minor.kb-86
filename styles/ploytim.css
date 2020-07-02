@@ -873,7 +873,9 @@ div .blok-photos .title {
 	margin: 0;
 }
 
-
+.p-youtube {
+	width: 340px;
+}
 .blok2-photos img {
 	padding: 30px;
     width: 360px;

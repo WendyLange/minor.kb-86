@@ -104,9 +104,6 @@ header img {
 	top: 70%;
 }
 
-.box1 {
-	
-}
 * {
 	font-family: roboto;
 }
@@ -474,6 +471,13 @@ margin: 40px 0px 20px 0px;
 .p-youtube{
 	font-weight: 300;
 	width: 560px;
+}
+/*blok 1 ploy nieuw*/
+.blok2-photos{
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	
 }
 /*blok 2 photos*/
 .blok2-photos{

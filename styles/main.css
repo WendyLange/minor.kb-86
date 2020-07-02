@@ -279,7 +279,9 @@ h2 {
 	font-size: 20px;
 
 }
+.button-white a:hover {
 
+}
 
 .button-white2{
 	display: flex;

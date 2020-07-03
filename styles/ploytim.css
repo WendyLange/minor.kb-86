@@ -273,7 +273,7 @@ header img {
 .portfolio {
 	margin: 12% 5% 12% 5%;
 	padding: 4%;
-	padding-right: 0;
+	/*padding-right: 0;*/
 	display: grid;
 	grid-template-areas: 
 	'tekst knop knop knop';

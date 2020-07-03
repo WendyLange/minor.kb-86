@@ -506,12 +506,11 @@ margin: 40px 0px 20px 0px;
 	height: 500px;
 }
 .blok2-photos img{
-	border: 3px;
-		width: 605px;
+	border: 3px solid grey;
+	width: 605px;
 	height: 340px;
 }
 .photo1-2{
-	border: 3px black;
 	grid-area: photo1-2;
 }
 .photo2-2{

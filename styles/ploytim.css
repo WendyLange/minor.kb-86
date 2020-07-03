@@ -661,6 +661,68 @@ margin: 40px 0px 20px 0px;
 	height: 600px;
 	background: linear-gradient(259.96deg, #3561FF 69.37%, rgba(53, 97, 255, 0.4) 98.64%);
 }
+.face
+{
+	position: absolute;
+	left: 3%;
+	top: 79%;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background: #ffcd00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.face::before
+{
+	content: '';
+	position: absolute;
+	top: 180px;
+	width: 50px;
+	height: 25px;
+	background: #b57700;
+	border-bottom-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+	transition: 0.5s;
+}
+.face:hover::before
+{
+	top: 210px;
+	width: 150px;
+	height: 20px;
+	background: #b57700;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.eyes
+{
+	position: relative;
+	top: -40px;
+	display: flex;
+}
+.eyes .eye
+{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	display: block;
+	background: #fff;
+	margin: 0 15px;
+	border-radius: 50%;
+}
+.eyes .eye::before
+{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 25px;
+	transform: translate(-50%,-50%);
+	width: 40px;
+	height: 40px;
+	background: #333;
+	border-radius: 50%;
+}
 
 
 @media only screen and (max-width: 600px) {

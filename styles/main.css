@@ -430,6 +430,9 @@ background-image {
 		'footer1 footer2 footer3 footer4 footer5';
 		padding: 30px;
 	}
+.footer a:hover{
+	text-decoration: underline;
+}
 .footer h3 a {
 	color: white;
 	text-decoration: none;

@@ -291,14 +291,14 @@ h2 {
 .portfolio a {
 	margin: auto;
 }
-.dave button a:hover {
+/*.dave button a:hover {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	cursor: pointer;
 	
 }
 .dave button:hover {
 	border-style: solid;
-}
+}*/
 .portfolio button a {
 	text-decoration: none;
 }

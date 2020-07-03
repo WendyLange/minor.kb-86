@@ -288,7 +288,10 @@ h2 {
 	margin-top: 50px;
 
 }
-.portfolio a button {
+.portfolio a {
+	margin: auto;
+}
+.dave a {
 	margin: auto;
 }
 /*.dave button a:hover {

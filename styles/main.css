@@ -306,7 +306,9 @@ h2 {
 .button-white2 a {
 	text-decoration: none;
 }
-
+.dave button a {
+	text-decoration: none;
+}
 #myBtn {
 	width: 75px;
 	height: 75px;

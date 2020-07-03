@@ -278,7 +278,7 @@ header img {
 	grid-template-areas: 
 	'tekst knop knop knop';
 }
-.portfolio button {
+.portfolio a button {
 	border: 0px solid white;
 	border-radius: 5px;
 	font-weight: 300;

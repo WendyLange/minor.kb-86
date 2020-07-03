@@ -298,6 +298,9 @@ h2 {
 .portfolio button a {
 	text-decoration: none;
 }
+.portfolio button a:hover {
+	color: white;
+}
 .button-white2{
 	display: flex;
 	justify-content: center;

@@ -12,3 +12,12 @@ In the fourth block we were put in groups and then set up a joint website with t
 Below are the links to the other groups who also participated in the minor. 
 It was put in here, because it had not been taken into account that this had to be put in the website. 
 To prevent a student from having a different version of the website, it has been resolved this way. 
+
+Grouplink of Sanne, Steven, Djenna and Geert:
+  https://minor-kb-86.netlify.app/
+  
+Grouplink of Stijn, Andrew, Calvin and Shantusha:
+  https://fruitfolio.nl/
+
+Grouplink of Bo, Wenyi and Matthew:
+  https://wowportfolios.nl/

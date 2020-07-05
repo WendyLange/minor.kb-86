@@ -430,7 +430,7 @@ background-image {
 		display: grid;
 		grid-gap: 20px;
 		grid-template-areas: 
-		'footer1 footer2 footer3 footer4 footer5';
+		'footer1 footer2 footer3 footer4 footer5 footer6';
 		padding: 30px;
 	}
 .footer a:hover{
@@ -480,6 +480,10 @@ background-image {
 .footer5{
 	width: 250px;
 	grid-area: footer5;
+}
+.footer6{
+	width: 250px;
+	grid-area: footer6;
 }
 .flag{
 	text-decoration: none;
@@ -966,7 +970,12 @@ header p {
 		'footer2' 
 		'footer3' 
 		'footer4' 
-		'footer5';
+		'footer5'
+		'footer6';
+	}
+	.footer6{
+		text-align: left;
+		width: 325px;
 	}
 
 

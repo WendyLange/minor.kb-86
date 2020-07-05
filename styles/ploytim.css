@@ -470,6 +470,7 @@ margin: 40px 0px 20px 0px;
 	padding: 10px;
 }
 .blok2-photos{
+	border: 3px grey;
 	padding: 50px;
 	display: grid;
 	grid-template-areas: 
@@ -505,7 +506,8 @@ margin: 40px 0px 20px 0px;
 	height: 500px;
 }
 .blok2-photos img{
-		width: 605px;
+	border: 3px solid grey;
+	width: 605px;
 	height: 340px;
 }
 .photo1-2{
